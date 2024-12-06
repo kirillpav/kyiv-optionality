@@ -1,11 +1,18 @@
-"use client";
+import React from "react";
 
-import { Flex, Text, Button } from "@radix-ui/themes";
-// places imports
-import parks from "../../places/park.json";
-import cafes from "../../places/cafe.json";
-import bars from "../../places/bar.json";
-import restaurants from "../../places/restaraunt.json";
+import {
+	Accordion,
+	AccordionContent,
+	AccordionItem,
+	AccordionTrigger,
+} from "@/components/ui/accordion";
+
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+
+import parks from "../../../places/park.json" assert { type: "json" };
+import cafes from "../../../places/cafe.json" assert { type: "json" };
+import bars from "../../../places/bar.json" assert { type: "json" };
+import restaurants from "../../../places/restaraunt.json" assert { type: "json" };
 
 interface OpeningHoursTime {
 	day: number;
@@ -69,18 +76,14 @@ const isOpenAtTime = (
 	return false;
 };
 
-function Home() {
-	const kyivTime = new Date();
-	kyivTime.setHours(kyivTime.getHours() + 2);
-	const currentTime = new Date(kyivTime);
+const kyivTime = new Date();
+kyivTime.setHours(kyivTime.getHours() + 10);
+const currentTime = new Date(kyivTime);
 
-	console.log(currentTime);
-
+export default function LocationInfo() {
 	return (
 		<div>
-			<h1>Hello World</h1>
+			<h1>Left Side</h1>
 		</div>
 	);
 }
-
-export default Home;
