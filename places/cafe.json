@@ -1,0 +1,2085 @@
+{
+	"places": [
+		{
+			"id": "ChIJk5ALj9zP1EARJHapgIzSGpQ",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Velyka Vasylkivska St, 85/87, Kyiv, Ukraine, 02000",
+			"displayName": {
+				"text": "044Cafe",
+				"languageCode": "uk"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJE8bcxKrP1EARGOGL5B7039c",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Yurkivska St, 57/17, Kyiv, Ukraine, 04071",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 0,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 1,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 2,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 3,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 4,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 5,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 6,
+							"hour": 20,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 8:30 AM – 8:00 PM",
+					"Tuesday: 8:30 AM – 8:00 PM",
+					"Wednesday: 8:30 AM – 8:00 PM",
+					"Thursday: 8:30 AM – 8:00 PM",
+					"Friday: 8:30 AM – 8:00 PM",
+					"Saturday: 8:30 AM – 8:00 PM",
+					"Sunday: 8:30 AM – 8:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T06:30:00Z"
+			},
+			"displayName": {
+				"text": "Dyletant",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJfTeCctrP1EARZiawquFywfQ",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Baseina St, 5Б, Kyiv, Ukraine, 01004",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 10:00 AM – 10:00 PM",
+					"Tuesday: 10:00 AM – 10:00 PM",
+					"Wednesday: 10:00 AM – 10:00 PM",
+					"Thursday: 10:00 AM – 10:00 PM",
+					"Friday: 10:00 AM – 10:00 PM",
+					"Saturday: 10:00 AM – 10:00 PM",
+					"Sunday: 10:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T08:00:00Z"
+			},
+			"displayName": {
+				"text": "Чайка",
+				"languageCode": "ru"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJ20buSFzO1EAR7CR0gC_jLik",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Reitarska St, 30, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 10:00 AM – 10:00 PM",
+					"Tuesday: 10:00 AM – 10:00 PM",
+					"Wednesday: 10:00 AM – 10:00 PM",
+					"Thursday: 10:00 AM – 10:00 PM",
+					"Friday: 10:00 AM – 10:00 PM",
+					"Saturday: 10:00 AM – 10:00 PM",
+					"Sunday: 10:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T08:00:00Z"
+			},
+			"displayName": {
+				"text": "One Tea Tree",
+				"languageCode": "uk"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJowmmz_HP1EARag2S4k5-08Y",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Vulytsya V'yacheslava Lypynsʹkoho, 4, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 11:00 PM",
+					"Tuesday: 9:00 AM – 11:00 PM",
+					"Wednesday: 9:00 AM – 11:00 PM",
+					"Thursday: 9:00 AM – 11:00 PM",
+					"Friday: 9:00 AM – 11:00 PM",
+					"Saturday: 9:00 AM – 11:00 PM",
+					"Sunday: 9:00 AM – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "ЛИПА",
+				"languageCode": "ru"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJH7CqRbLP1EARpTgOUH7srIs",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Reitarska St, 19, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 20,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 8:00 PM",
+					"Tuesday: 9:00 AM – 8:00 PM",
+					"Wednesday: 9:00 AM – 8:00 PM",
+					"Thursday: 9:00 AM – 8:00 PM",
+					"Friday: 9:00 AM – 8:00 PM",
+					"Saturday: 9:00 AM – 8:00 PM",
+					"Sunday: 9:00 AM – 8:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "Katimō Cafe",
+				"languageCode": "uk"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJscY1aZ3P1EAR9zBc80I_G2g",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Velyka Vasylkivska St, 1-3, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 10:00 PM",
+					"Tuesday: 9:00 AM – 10:00 PM",
+					"Wednesday: 9:00 AM – 10:00 PM",
+					"Thursday: 9:00 AM – 10:00 PM",
+					"Friday: 9:00 AM – 10:00 PM",
+					"Saturday: 9:00 AM – 10:00 PM",
+					"Sunday: 9:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "Зустріч кафе",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJr3iOrP3P1EAREPYLDmmRTGU",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Velyka Zhytomyrska St, 20, Kyiv, Ukraine, 01034",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 20,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 21,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 8:00 PM",
+					"Tuesday: 9:00 AM – 8:00 PM",
+					"Wednesday: 9:00 AM – 8:00 PM",
+					"Thursday: 9:00 AM – 8:00 PM",
+					"Friday: 9:00 AM – 8:00 PM",
+					"Saturday: 9:00 AM – 9:00 PM",
+					"Sunday: 9:00 AM – 9:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "CITY-ZEN cafe&bar",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJYTHxXCbP1EARqoMuHw4Q9R8",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Yevhena Chykalenka St, 1-3, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 9:00 PM",
+					"Tuesday: 9:00 AM – 9:00 PM",
+					"Wednesday: 9:00 AM – 9:00 PM",
+					"Thursday: 9:00 AM – 9:00 PM",
+					"Friday: 9:00 AM – 9:00 PM",
+					"Saturday: 9:00 AM – 10:00 PM",
+					"Sunday: 9:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "JUJU",
+				"languageCode": "uk"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJUQva8P7O1EARu2rQt4rtuDI",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Rohnidynska St, 4, Kyiv, Ukraine, 01024",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 10:00 PM",
+					"Tuesday: 11:00 AM – 10:00 PM",
+					"Wednesday: 11:00 AM – 10:00 PM",
+					"Thursday: 11:00 AM – 10:00 PM",
+					"Friday: 11:00 AM – 11:00 PM",
+					"Saturday: 11:00 AM – 11:00 PM",
+					"Sunday: 11:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "Balmelli Casual Cafe",
+				"languageCode": "ru"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJjX5APmLO1EARR5YmtoqlcCA",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Oleksandra Konyskoho St, 55, Kyiv, Ukraine, 04050",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 10:00 AM – 10:00 PM",
+					"Tuesday: 10:00 AM – 10:00 PM",
+					"Wednesday: 10:00 AM – 10:00 PM",
+					"Thursday: 10:00 AM – 10:00 PM",
+					"Friday: 10:00 AM – 10:00 PM",
+					"Saturday: 10:00 AM – 10:00 PM",
+					"Sunday: 10:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T08:00:00Z"
+			},
+			"displayName": {
+				"text": "Cafe Charlotte",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJh9ooWPnO1EARLkIasBz7dDs",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Antonovycha St, 1, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 9:00 PM",
+					"Tuesday: 9:00 AM – 9:00 PM",
+					"Wednesday: 9:00 AM – 9:00 PM",
+					"Thursday: 9:00 AM – 10:00 PM",
+					"Friday: 9:00 AM – 10:00 PM",
+					"Saturday: 9:00 AM – 10:00 PM",
+					"Sunday: 9:00 AM – 9:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "Alʹtruyist",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJ9V8_bUDO1EARiXjNanApD-w",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Hryhoriya Skovorody St, 5, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 10,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 21,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 9:00 PM",
+					"Tuesday: 9:00 AM – 9:00 PM",
+					"Wednesday: 9:00 AM – 9:00 PM",
+					"Thursday: 9:00 AM – 9:00 PM",
+					"Friday: 9:00 AM – 9:00 PM",
+					"Saturday: 10:00 AM – 9:00 PM",
+					"Sunday: 10:00 AM – 9:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "Kaffa",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJN7nJGUrP1EARtjadN2bydhQ",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "вулиця Голосіївська, 13, прим, 507, Київ, Ukraine, 03039",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 10:00 PM",
+					"Tuesday: 9:00 AM – 10:00 PM",
+					"Wednesday: 9:00 AM – 10:00 PM",
+					"Thursday: 9:00 AM – 10:00 PM",
+					"Friday: 9:00 AM – 10:00 PM",
+					"Saturday: 9:00 AM – 10:00 PM",
+					"Sunday: 9:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "Home Cafe",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJFRueUvzO1EARm1lmAm6UugY",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Velyka Vasylkivska St, 43/16, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 8:00 AM – 10:00 PM",
+					"Tuesday: 8:00 AM – 10:00 PM",
+					"Wednesday: 8:00 AM – 10:00 PM",
+					"Thursday: 8:00 AM – 10:00 PM",
+					"Friday: 8:00 AM – 10:00 PM",
+					"Saturday: 8:00 AM – 10:00 PM",
+					"Sunday: 8:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T06:00:00Z"
+			},
+			"displayName": {
+				"text": "TAKAVA 1.0",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJLwYIEX7P1EARoM4L5ZnAxUc",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Hoholivska St, 25, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 21,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 9:00 AM – 9:00 PM",
+					"Tuesday: 9:00 AM – 9:00 PM",
+					"Wednesday: 9:00 AM – 9:00 PM",
+					"Thursday: 9:00 AM – 9:00 PM",
+					"Friday: 9:00 AM – 9:00 PM",
+					"Saturday: 9:00 AM – 9:00 PM",
+					"Sunday: 9:00 AM – 9:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T07:00:00Z"
+			},
+			"displayName": {
+				"text": "Mates",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJ7VG1RWvO1EARHiLgnX42-FU",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Kostiantynivska St, 20/14, Kyiv, Ukraine, 04071",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 8:00 AM – 10:00 PM",
+					"Tuesday: 8:00 AM – 10:00 PM",
+					"Wednesday: 8:00 AM – 10:00 PM",
+					"Thursday: 8:00 AM – 10:00 PM",
+					"Friday: 8:00 AM – 10:00 PM",
+					"Saturday: 9:00 AM – 10:00 PM",
+					"Sunday: 9:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T06:00:00Z"
+			},
+			"displayName": {
+				"text": "STORIES cafe",
+				"languageCode": "uk"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJ9ZtmNRXD1EARBfLA27Xj7Ng",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Ivana Franka St, 9, Kyiv, Ukraine, 01054",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 1,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 2,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 3,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 4,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 8,
+							"minute": 30
+						},
+						"close": {
+							"day": 5,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 21,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 8:30 AM – 9:00 PM",
+					"Tuesday: 8:30 AM – 9:00 PM",
+					"Wednesday: 8:30 AM – 9:00 PM",
+					"Thursday: 8:30 AM – 9:00 PM",
+					"Friday: 8:30 AM – 9:00 PM",
+					"Saturday: 9:00 AM – 9:00 PM",
+					"Sunday: 9:00 AM – 9:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T06:30:00Z"
+			},
+			"displayName": {
+				"text": "Frankly",
+				"languageCode": "en"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJCU2Ua53P1EARM_JCC-PBtQA",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Rusanivska Embankment, 12, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 12:00 – 10:00 PM",
+					"Tuesday: 12:00 – 10:00 PM",
+					"Wednesday: 12:00 – 10:00 PM",
+					"Thursday: 12:00 – 10:00 PM",
+					"Friday: 12:00 – 10:00 PM",
+					"Saturday: 12:00 – 10:00 PM",
+					"Sunday: 12:00 – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T10:00:00Z"
+			},
+			"displayName": {
+				"text": "OG Burger",
+				"languageCode": "ru"
+			},
+			"primaryType": "cafe"
+		},
+		{
+			"id": "ChIJn0295d_P1EARVnuRgCZuD2g",
+			"types": ["cafe", "food", "point_of_interest", "establishment"],
+			"formattedAddress": "Khreschatyk St, 24, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 8,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 9,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 8:00 AM – 10:00 PM",
+					"Tuesday: 8:00 AM – 10:00 PM",
+					"Wednesday: 8:00 AM – 10:00 PM",
+					"Thursday: 8:00 AM – 10:00 PM",
+					"Friday: 8:00 AM – 10:00 PM",
+					"Saturday: 9:00 AM – 10:00 PM",
+					"Sunday: 9:00 AM – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T06:00:00Z"
+			},
+			"displayName": {
+				"text": "ПАШТЕТ на вул.Хрещатик",
+				"languageCode": "ru"
+			},
+			"primaryType": "cafe"
+		}
+	]
+}
