@@ -7,6 +7,8 @@ import cafes from "../../places/cafe.json";
 import bars from "../../places/bar.json";
 import restaurants from "../../places/restaraunt.json";
 
+import LocationInfo from "./components/LocationInfo";
+
 interface OpeningHoursTime {
 	day: number;
 	hour: number;
@@ -77,9 +79,15 @@ function Home() {
 	console.log(currentTime);
 
 	return (
-		<div>
+		<main className="flex flex-col sm:flex-row sm:gap-4 h-screen">
+			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2 overflow-hidden sm:flex sm:flex-col">
+				<div className="w-full h-20 pl-8 pr-4 hidden sm:flex sm:justify-between items-center">
+					<LocationInfo />
+				</div>
+			</div>
+
 			<h1>Hello World</h1>
-		</div>
+		</main>
 	);
 }
 

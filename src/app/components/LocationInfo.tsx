@@ -36,6 +36,18 @@ interface Place {
 	isOpen: boolean;
 }
 
+function openTime(status: string) {
+	return (
+		<div
+			className={`rounded-lg px-2 py-1 text-sm w-[fit-content] ${
+				status === "open" && "bg-green-700"
+			} ${status === "closed" && "bg-red-700"}`}
+		>
+			{status}
+		</div>
+	);
+}
+
 const isOpenAtTime = (
 	openingHours: OpeningHours,
 	currentDate: Date
@@ -76,14 +88,51 @@ const isOpenAtTime = (
 	return false;
 };
 
+function getPlaceNames(data: any): string[] {
+	return data.places.map((place: any) => place.displayName.text);
+}
+
+const cafeNames = getPlaceNames(cafes);
+const restarauntNames = getPlaceNames(restaurants);
+const parkNames = getPlaceNames(parks);
+const barNames = getPlaceNames(bars);
+
 const kyivTime = new Date();
 kyivTime.setHours(kyivTime.getHours() + 10);
 const currentTime = new Date(kyivTime);
 
+// TODO Accordion for each category of item (eq. Cafes, Restaurants ...)
+// TODO In each frop down display name of place and status of it
 export default function LocationInfo() {
 	return (
 		<div>
 			<h1>Left Side</h1>
+			<Accordion type="single" collapsible className="w-full">
+				<AccordionItem value="cafes">
+					<AccordionTrigger>Cafes</AccordionTrigger>
+					{cafeNames.map((cafe, id) => (
+						<AccordionContent key={id}>{cafe}</AccordionContent>
+					))}
+				</AccordionItem>
+				<AccordionItem value="restaurants">
+					<AccordionTrigger>Restaurants</AccordionTrigger>
+					{restarauntNames.map((restaurant, id) => (
+						<AccordionContent key={id}>{restaurant}</AccordionContent>
+					))}
+				</AccordionItem>
+				<AccordionItem value="parks">
+					<AccordionTrigger>Parks</AccordionTrigger>
+					{parkNames.map((park, id) => (
+						<AccordionContent key={id}>{park}</AccordionContent>
+					))}
+				</AccordionItem>
+				<AccordionItem value="bars">
+					<AccordionTrigger>Bars</AccordionTrigger>
+					{barNames.map((bar, id) => (
+						<AccordionContent key={id}>{bar}</AccordionContent>
+					))}
+				</AccordionItem>
+			</Accordion>
 		</div>
 	);
 }
