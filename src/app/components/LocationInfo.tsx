@@ -109,9 +109,18 @@ export default function LocationInfo() {
 			<h1>Left Side</h1>
 			<Accordion type="single" collapsible className="w-full">
 				<AccordionItem value="cafes">
-					<AccordionTrigger>Cafes</AccordionTrigger>
+					<AccordionTrigger className="text-lg uppercase">
+						Cafes
+					</AccordionTrigger>
 					{cafeNames.map((cafe, id) => (
-						<AccordionContent key={id}>{cafe}</AccordionContent>
+						<div key={id} className="flex items-center">
+							<AccordionContent
+								key={id}
+								className="divide-y divide-dashed divide-zinc-600"
+							>
+								{cafe}
+							</AccordionContent>
+						</div>
 					))}
 				</AccordionItem>
 				<AccordionItem value="restaurants">

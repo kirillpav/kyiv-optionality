@@ -79,14 +79,10 @@ function Home() {
 	console.log(currentTime);
 
 	return (
-		<main className="flex flex-col sm:flex-row sm:gap-4 h-screen">
-			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2 overflow-hidden sm:flex sm:flex-col">
-				<div className="w-full h-20 pl-8 pr-4 hidden sm:flex sm:justify-between items-center">
-					<LocationInfo />
-				</div>
+		<main className="flex flex-col h-screen p-4">
+			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col w-1/3">
+				<LocationInfo />
 			</div>
-
-			<h1>Hello World</h1>
 		</main>
 	);
 }
