@@ -48,14 +48,43 @@ const isOpenAtTime = (
 	const currentHour = currentDate.getHours();
 	const currentMinute = currentDate.getMinutes();
 
+	const currentDayPeriod = openingHours?.periods?.find(
+		(period) => period.open.day === currentDay
+	);
+
+	if (currentDayPeriod) {
+		const { open, close } = currentDayPeriod;
+
+		if (!close) return true;
+
+		if (
+			open.hour !== undefined &&
+			open.minute !== undefined &&
+			close?.hour !== undefined &&
+			close?.minute !== undefined
+		) {
+			const { hour: startHour, minute: startMinute } = open;
+			const { hour: endHour, minute: endMinute } = close;
+
+			if (
+				(currentHour > startHour ||
+					(currentHour === startHour && currentMinute >= startMinute)) &&
+				(currentHour < endHour ||
+					(currentHour === endHour && currentMinute < endMinute))
+			) {
+				return true;
+			}
+		}
+	}
+
 	return false;
 };
 
 function getPlaceData(data: any): Place[] {
 	return data.places.map((place: any) => ({
 		name: place.displayName.text,
-		openingHours: place.openingHours,
-		isOpen: isOpenAtTime(place.openingHours, new Date()),
+		openingHours: place.regularOpeningHours as OpeningHours,
+		isOpen: isOpenAtTime(place.regularOpeningHours as OpeningHours, kyivTime), // change to kyivTime later
 	}));
 }
 
@@ -82,9 +111,13 @@ export default function LocationInfo() {
 								key={id}
 								className="divide-y divide-dashed divide-zinc-600"
 							>
-								<div className="flex items-center justify-between">
+								<div className="flex items-center justify-between gap-2">
 									<p>{cafe.name}</p>
-									{/* <p>{cafe.openingHours}</p> */}
+									{cafe.isOpen ? (
+										<p className="text-green-500">Open</p>
+									) : (
+										<p className="text-red-500">Closed</p>
+									)}
 								</div>
 							</AccordionContent>
 						</div>
@@ -93,19 +126,46 @@ export default function LocationInfo() {
 				<AccordionItem value="restaurants">
 					<AccordionTrigger>Restaurants</AccordionTrigger>
 					{restaurantData.map((restaurant: Place, id: number) => (
-						<AccordionContent key={id}>{restaurant.name}</AccordionContent>
+						<AccordionContent key={id}>
+							<div className="flex items-center justify-between gap-2">
+								<p>{restaurant.name}</p>
+								{restaurant.isOpen ? (
+									<p className="text-green-500">Open</p>
+								) : (
+									<p className="text-red-500">Closed</p>
+								)}
+							</div>
+						</AccordionContent>
 					))}
 				</AccordionItem>
 				<AccordionItem value="parks">
 					<AccordionTrigger>Parks</AccordionTrigger>
 					{parkData.map((park: Place, id: number) => (
-						<AccordionContent key={id}>{park.name}</AccordionContent>
+						<AccordionContent key={id}>
+							<div className="flex items-center justify-between gap-2">
+								<p>{park.name}</p>
+								{park.isOpen ? (
+									<p className="text-green-500">Open</p>
+								) : (
+									<p className="text-red-500">Closed</p>
+								)}
+							</div>
+						</AccordionContent>
 					))}
 				</AccordionItem>
 				<AccordionItem value="bars">
 					<AccordionTrigger>Bars</AccordionTrigger>
 					{barData.map((bar: Place, id: number) => (
-						<AccordionContent key={id}>{bar.name}</AccordionContent>
+						<AccordionContent key={id}>
+							<div className="flex items-center justify-between gap-2">
+								<p>{bar.name}</p>
+								{bar.isOpen ? (
+									<p className="text-green-500">Open</p>
+								) : (
+									<p className="text-red-500">Closed</p>
+								)}
+							</div>
+						</AccordionContent>
 					))}
 				</AccordionItem>
 			</Accordion>
