@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import {
 	Accordion,
@@ -14,10 +14,6 @@ import cafes from "../../../places/cafe.json" assert { type: "json" };
 import bars from "../../../places/bar.json" assert { type: "json" };
 import restaurants from "../../../places/restaraunt.json" assert { type: "json" };
 
-// Get current time in Kyiv
-const kyivTime = new Date();
-kyivTime.setHours(kyivTime.getHours() + 10);
-const currentTime = new Date(kyivTime);
 interface OpeningHoursTime {
 	day: number;
 	hour: number;
@@ -80,26 +76,37 @@ const isOpenAtTime = (
 	return false;
 };
 
-function getPlaceData(data: any): Place[] {
-	return data.places.map((place: any) => ({
-		name: place.displayName.text,
-		openingHours: place.regularOpeningHours as OpeningHours,
-		isOpen: isOpenAtTime(place.regularOpeningHours as OpeningHours, kyivTime), // change to kyivTime later
-	}));
-}
-
-const cafeData = getPlaceData(cafes);
-const restaurantData = getPlaceData(restaurants);
-const parkData = getPlaceData(parks);
-const barData = getPlaceData(bars);
-
 // TODO Accordion for each category of item (eq. Cafes, Restaurants ...)
 // TODO In each frop down display name of place and status of it
 export default function LocationInfo() {
+	const [currentTime, setCurrentTime] = useState<Date | null>(null);
+
+	useEffect(() => {
+		// Get current time in Kyiv
+		const kyivTime = new Date();
+		kyivTime.setHours(kyivTime.getHours() + 10);
+		setCurrentTime(new Date(kyivTime));
+	}, []);
+
+	function getPlaceData(data: any): Place[] {
+		return data.places.map((place: any) => ({
+			name: place.displayName.text,
+			openingHours: place.regularOpeningHours as OpeningHours,
+			isOpen: isOpenAtTime(
+				place.regularOpeningHours as OpeningHours,
+				currentTime ?? new Date() // Provide default value if currentTime is null
+			), // change to kyivTime later
+		}));
+	}
+
+	const cafeData = getPlaceData(cafes);
+	const restaurantData = getPlaceData(restaurants);
+	const parkData = getPlaceData(parks);
+	const barData = getPlaceData(bars);
 	return (
 		<div>
 			<h1>Left Side</h1>
-			<p>{kyivTime.toLocaleString()}</p>
+			<p>{currentTime?.toLocaleString()}</p>
 			<Accordion type="single" collapsible className="w-full">
 				<AccordionItem value="cafes">
 					<AccordionTrigger className="text-lg uppercase">
