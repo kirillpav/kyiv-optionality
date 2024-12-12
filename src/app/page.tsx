@@ -10,6 +10,12 @@ import restaurants from "../../places/restaraunt.json";
 import LocationInfo from "./components/LocationInfo";
 import Map from "./components/Map";
 
+interface dataFormar {
+	address: string;
+	coords: [number, number];
+	status: string;
+}
+
 interface OpeningHoursTime {
 	day: number;
 	hour: number;
