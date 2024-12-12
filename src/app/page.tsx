@@ -8,6 +8,7 @@ import bars from "../../places/bar.json";
 import restaurants from "../../places/restaraunt.json";
 
 import LocationInfo from "./components/LocationInfo";
+import Map from "./components/Map";
 
 interface OpeningHoursTime {
 	day: number;
@@ -72,16 +73,11 @@ const isOpenAtTime = (
 };
 
 function Home() {
-	const kyivTime = new Date();
-	kyivTime.setHours(kyivTime.getHours() + 2);
-	const currentTime = new Date(kyivTime);
-
-	console.log(currentTime);
-
 	return (
-		<main className="flex flex-col h-screen p-4">
+		<main className="flex flex-row h-full p-4">
 			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col w-1/3">
 				<LocationInfo />
+				<Map />
 			</div>
 		</main>
 	);
