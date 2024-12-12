@@ -111,8 +111,8 @@ export default function LocationInfo() {
 
 	return (
 		<div>
-			<h1>Left Side</h1>
-			<p>{currentTime?.toLocaleString()}</p>
+			<h1 className="text-2xl font-bold">Welcome to Kyiv</h1>
+			<p>Current time: {currentTime?.toLocaleString()}</p>
 			<Accordion type="single" collapsible className="w-full">
 				<AccordionItem value="cafes">
 					<AccordionTrigger className="text-lg uppercase">
@@ -123,11 +123,8 @@ export default function LocationInfo() {
 					</AccordionTrigger>
 					{cafeData.map((cafe: Place, id: number) => (
 						<div key={id} className="flex items-center">
-							<AccordionContent
-								key={id}
-								className="divide-y divide-dashed divide-zinc-600"
-							>
-								<div className="flex items-center justify-between gap-2">
+							<AccordionContent key={id} className="px-6">
+								<div className="flex items-center justify-between w-full py-2 gap-5">
 									<p>{cafe.name}</p>
 									{cafe.isOpen ? (
 										<p className="text-green-500">Open</p>
@@ -148,7 +145,7 @@ export default function LocationInfo() {
 					</AccordionTrigger>
 					{restaurantData.map((restaurant: Place, id: number) => (
 						<AccordionContent key={id}>
-							<div className="flex items-center justify-between gap-2">
+							<div className="flex items-center  gap-2">
 								<p>{restaurant.name}</p>
 								{restaurant.isOpen ? (
 									<p className="text-green-500">Open</p>
@@ -168,7 +165,7 @@ export default function LocationInfo() {
 					</AccordionTrigger>
 					{parkData.map((park: Place, id: number) => (
 						<AccordionContent key={id}>
-							<div className="flex items-center justify-between gap-2">
+							<div className="flex items-center ">
 								<p>{park.name}</p>
 								{park.isOpen ? (
 									<p className="text-green-500">Open</p>
@@ -188,7 +185,7 @@ export default function LocationInfo() {
 					</AccordionTrigger>
 					{barData.map((bar: Place, id: number) => (
 						<AccordionContent key={id}>
-							<div className="flex items-center justify-between gap-2">
+							<div className="flex items-center">
 								<p>{bar.name}</p>
 								{bar.isOpen ? (
 									<p className="text-green-500">Open</p>

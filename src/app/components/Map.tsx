@@ -4,7 +4,13 @@ import { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-export default function Map() {
+interface dataFormat {
+	address: string;
+	coords: [number, number];
+	status: string;
+}
+
+export default function Map({ data }: { data: dataFormat[] }) {
 	const mapRef = useRef<mapboxgl.Map | null>(null);
 	const mapContainerRef = useRef<HTMLDivElement | null>(null);
 
@@ -13,6 +19,14 @@ export default function Map() {
 		30.52151862352623, 50.44238028491744,
 	]);
 	const [pitch, setPitch] = useState(52);
+
+	function getColorByStatus(status: string) {
+		if (status === "open") {
+			return "h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)]";
+		} else {
+			return "h-2 w-2 rounded-full bg-red-400 shadow-[0px_0px_4px_2px_rgba(239,68,68,0.9)]";
+		}
+	}
 
 	useEffect(() => {
 		if (!mapContainerRef.current) return; // Add guard clause
@@ -31,6 +45,30 @@ export default function Map() {
 			center: center,
 			zoom: zoom,
 			pitch: pitch,
+		});
+
+		mapRef.current.on("move", () => {
+			if (mapRef.current) {
+				const mapCenter = mapRef.current.getCenter();
+				const mapZoom = mapRef.current.getZoom();
+				const mapPitch = mapRef.current.getPitch();
+
+				setCenter([mapCenter.lng, mapCenter.lat]);
+				setZoom(mapZoom);
+				setPitch(mapPitch);
+			}
+		});
+
+		// Adding markers
+		data.map((data) => {
+			const element = document.createElement("div");
+			element.className = getColorByStatus(data.status);
+
+			if (mapRef.current && data.coords) {
+				new mapboxgl.Marker(element)
+					.setLngLat([data.coords[0], data.coords[1]])
+					.addTo(mapRef.current);
+			}
 		});
 
 		// Add error handling
