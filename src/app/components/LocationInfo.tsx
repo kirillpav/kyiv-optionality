@@ -14,6 +14,10 @@ import cafes from "../../../places/cafe.json" assert { type: "json" };
 import bars from "../../../places/bar.json" assert { type: "json" };
 import restaurants from "../../../places/restaraunt.json" assert { type: "json" };
 
+// Get current time in Kyiv
+const kyivTime = new Date();
+kyivTime.setHours(kyivTime.getHours() + 10);
+const currentTime = new Date(kyivTime);
 interface OpeningHoursTime {
 	day: number;
 	hour: number;
@@ -36,18 +40,6 @@ interface Place {
 	isOpen: boolean;
 }
 
-function openTime(status: string) {
-	return (
-		<div
-			className={`rounded-lg px-2 py-1 text-sm w-[fit-content] ${
-				status === "open" && "bg-green-700"
-			} ${status === "closed" && "bg-red-700"}`}
-		>
-			{status}
-		</div>
-	);
-}
-
 const isOpenAtTime = (
 	openingHours: OpeningHours,
 	currentDate: Date
@@ -56,50 +48,21 @@ const isOpenAtTime = (
 	const currentHour = currentDate.getHours();
 	const currentMinute = currentDate.getMinutes();
 
-	const currentDayPeriod = openingHours.periods?.find(
-		(period) => period.open.day === currentDay
-	);
-
-	if (currentDayPeriod) {
-		const { open, close } = currentDayPeriod;
-
-		if (!close) return true;
-
-		if (
-			open.hour !== undefined &&
-			open.minute !== undefined &&
-			close?.hour !== undefined &&
-			close?.minute !== undefined
-		) {
-			const { hour: startHour, minute: startMinute } = open;
-			const { hour: endHour, minute: endMinute } = close;
-
-			if (
-				(currentHour > startHour ||
-					(currentHour === startHour && currentMinute >= startMinute)) &&
-				(currentHour < endHour ||
-					(currentHour === endHour && currentMinute < endMinute))
-			) {
-				return true;
-			}
-		}
-	}
-
 	return false;
 };
 
-function getPlaceNames(data: any): string[] {
-	return data.places.map((place: any) => place.displayName.text);
+function getPlaceData(data: any): Place[] {
+	return data.places.map((place: any) => ({
+		name: place.displayName.text,
+		openingHours: place.openingHours,
+		isOpen: isOpenAtTime(place.openingHours, new Date()),
+	}));
 }
 
-const cafeNames = getPlaceNames(cafes);
-const restarauntNames = getPlaceNames(restaurants);
-const parkNames = getPlaceNames(parks);
-const barNames = getPlaceNames(bars);
-
-const kyivTime = new Date();
-kyivTime.setHours(kyivTime.getHours() + 10);
-const currentTime = new Date(kyivTime);
+const cafeData = getPlaceData(cafes);
+const restaurantData = getPlaceData(restaurants);
+const parkData = getPlaceData(parks);
+const barData = getPlaceData(bars);
 
 // TODO Accordion for each category of item (eq. Cafes, Restaurants ...)
 // TODO In each frop down display name of place and status of it
@@ -107,38 +70,42 @@ export default function LocationInfo() {
 	return (
 		<div>
 			<h1>Left Side</h1>
+			<p>{kyivTime.toLocaleString()}</p>
 			<Accordion type="single" collapsible className="w-full">
 				<AccordionItem value="cafes">
 					<AccordionTrigger className="text-lg uppercase">
 						Cafes
 					</AccordionTrigger>
-					{cafeNames.map((cafe, id) => (
+					{cafeData.map((cafe: Place, id: number) => (
 						<div key={id} className="flex items-center">
 							<AccordionContent
 								key={id}
 								className="divide-y divide-dashed divide-zinc-600"
 							>
-								{cafe}
+								<div className="flex items-center justify-between">
+									<p>{cafe.name}</p>
+									{/* <p>{cafe.openingHours}</p> */}
+								</div>
 							</AccordionContent>
 						</div>
 					))}
 				</AccordionItem>
 				<AccordionItem value="restaurants">
 					<AccordionTrigger>Restaurants</AccordionTrigger>
-					{restarauntNames.map((restaurant, id) => (
-						<AccordionContent key={id}>{restaurant}</AccordionContent>
+					{restaurantData.map((restaurant: Place, id: number) => (
+						<AccordionContent key={id}>{restaurant.name}</AccordionContent>
 					))}
 				</AccordionItem>
 				<AccordionItem value="parks">
 					<AccordionTrigger>Parks</AccordionTrigger>
-					{parkNames.map((park, id) => (
-						<AccordionContent key={id}>{park}</AccordionContent>
+					{parkData.map((park: Place, id: number) => (
+						<AccordionContent key={id}>{park.name}</AccordionContent>
 					))}
 				</AccordionItem>
 				<AccordionItem value="bars">
 					<AccordionTrigger>Bars</AccordionTrigger>
-					{barNames.map((bar, id) => (
-						<AccordionContent key={id}>{bar}</AccordionContent>
+					{barData.map((bar: Place, id: number) => (
+						<AccordionContent key={id}>{bar.name}</AccordionContent>
 					))}
 				</AccordionItem>
 			</Accordion>
