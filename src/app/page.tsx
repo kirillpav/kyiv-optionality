@@ -9,12 +9,7 @@ import restaurants from "../../places/restaraunt.json";
 
 import LocationInfo from "./components/LocationInfo";
 import Map from "./components/Map";
-
-interface dataFormar {
-	address: string;
-	coords: [number, number];
-	status: string;
-}
+import { useEffect, useState } from "react";
 
 interface OpeningHoursTime {
 	day: number;
@@ -36,6 +31,25 @@ interface Place {
 	id: string;
 	openingHours: OpeningHours;
 	isOpen: boolean;
+}
+
+async function getCoords(address: string): Promise<[number, number]> {
+	const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
+	const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${googleMapsApiKey}`;
+
+	try {
+		const response = await fetch(url);
+		const data = await response.json();
+
+		if (data.status === "OK") {
+			const location = data.results[0].geometry.location;
+			return [location.lat, location.lng];
+		}
+		return [0, 0]; // Default coordinates if geocoding fails
+	} catch (error) {
+		console.error("Error fetching coordinates:", error);
+		return [0, 0]; // Default coordinates on error
+	}
 }
 
 const isOpenAtTime = (
@@ -84,7 +98,7 @@ function Home() {
 			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col w-1/3 px-4">
 				<LocationInfo />
 			</div>
-			<Map data={data} />
+			<Map />
 		</main>
 	);
 }
