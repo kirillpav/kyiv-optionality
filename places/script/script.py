@@ -6,7 +6,7 @@ with open('../park.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Your Google Maps API key
-google_maps_api_key = 'AIzaSyAcfSlLDYeF3U1wJEVji6W6lF-kLvCK_us'
+# google_maps_api_key = 'AIzaSyAcfSlLDYeF3U1wJEVji6W6lF-kLvCK_us'
 
 # Function to geocode an address
 def geocode_address(address):
