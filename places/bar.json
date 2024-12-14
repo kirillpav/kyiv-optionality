@@ -1,2172 +1,2105 @@
 {
-  "places": [
-    {
-      "id": "ChIJO6gJPPnO1EARG3ZRIZi4OV4",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Vulytsya Tereshchenkivsʹka, 17Б, Kyiv, Ukraine, 02000",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 11:00 AM – 11:00 PM",
-          "Tuesday: 11:00 AM – 11:00 PM",
-          "Wednesday: 11:00 AM – 11:00 PM",
-          "Thursday: 11:00 AM – 11:00 PM",
-          "Friday: 11:00 AM – 11:00 PM",
-          "Saturday: 11:00 AM – 11:00 PM",
-          "Sunday: 11:00 AM – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T09:00:00Z"
-      },
-      "displayName": {
-        "text": "Squat17B",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJZZjzMlbO1EAREY6IYK_ghvA",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Yevhena Chykalenka St, 20А, Kyiv, Ukraine, 01004",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 11:00 AM – 11:00 PM",
-          "Tuesday: 11:00 AM – 11:00 PM",
-          "Wednesday: 11:00 AM – 11:00 PM",
-          "Thursday: 11:00 AM – 11:00 PM",
-          "Friday: 11:00 AM – 11:00 PM",
-          "Saturday: 11:00 AM – 11:00 PM",
-          "Sunday: 11:00 AM – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T09:00:00Z"
-      },
-      "displayName": {
-        "text": "ZMIST Театральна",
-        "languageCode": "uk"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJ24kv6BDP1EARtgsmvxf9blg",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Leonida Pervomais'koho St, 7, Kyiv, Ukraine, 01133",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 11:00 AM – 11:00 PM",
-          "Tuesday: 11:00 AM – 11:00 PM",
-          "Wednesday: 11:00 AM – 11:00 PM",
-          "Thursday: 11:00 AM – 11:00 PM",
-          "Friday: 11:00 AM – 11:00 PM",
-          "Saturday: 11:00 AM – 11:00 PM",
-          "Sunday: 11:00 AM – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T09:00:00Z"
-      },
-      "displayName": {
-        "text": "Zmist bar",
-        "languageCode": "uk"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJaRo8zE_P1EARx5Uw_Ys-WZE",
-      "types": [
-        "pub",
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Kniaziv Ostrozkykh St, 8, Korpus 7, Kyiv, Ukraine, 01029",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 12:00 – 11:00 PM",
-          "Tuesday: 12:00 – 11:00 PM",
-          "Wednesday: 12:00 – 11:00 PM",
-          "Thursday: 12:00 – 11:00 PM",
-          "Friday: 12:00 – 11:00 PM",
-          "Saturday: 12:00 – 11:00 PM",
-          "Sunday: 12:00 – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T10:00:00Z"
-      },
-      "displayName": {
-        "text": "Pepper's Club",
-        "languageCode": "uk"
-      },
-      "primaryType": "pub"
-    },
-    {
-      "id": "ChIJ3W3CdwDP1EARfRd8f6aTwNg",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Antonovycha St, 97, Kyiv, Ukraine, 03150",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 11:00 AM – 11:00 PM",
-          "Tuesday: 11:00 AM – 11:00 PM",
-          "Wednesday: 11:00 AM – 11:00 PM",
-          "Thursday: 11:00 AM – 11:00 PM",
-          "Friday: 11:00 AM – 11:00 PM",
-          "Saturday: 11:00 AM – 11:00 PM",
-          "Sunday: 11:00 AM – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T09:00:00Z"
-      },
-      "displayName": {
-        "text": "Zmist Bar",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJfxLYDlbO1EARs7Y-ATC2nlg",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Khreschatyk St, 44б, Kyiv, Ukraine, 01001",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 5:00 – 11:00 PM",
-          "Tuesday: 5:00 – 11:00 PM",
-          "Wednesday: 5:00 – 11:00 PM",
-          "Thursday: 5:00 – 11:00 PM",
-          "Friday: 4:00 – 11:00 PM",
-          "Saturday: 4:00 – 11:00 PM",
-          "Sunday: 4:00 – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T15:00:00Z"
-      },
-      "displayName": {
-        "text": "Barman Dictat",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJAaNd4l3O1EARROstD6Us150",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Bulvarno-Kudriavska St, 9, Kyiv, Ukraine, 04053",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 15,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 15,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 4:00 – 10:00 PM",
-          "Tuesday: 4:00 – 10:00 PM",
-          "Wednesday: 4:00 – 10:00 PM",
-          "Thursday: 4:00 – 11:00 PM",
-          "Friday: 4:00 – 11:00 PM",
-          "Saturday: 3:00 – 11:00 PM",
-          "Sunday: 3:00 – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T14:00:00Z"
-      },
-      "displayName": {
-        "text": "Lysa Hora",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJl4696EbO1EAReEJTvMPF4NE",
-      "types": [
-        "bar",
-        "pub",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Ihorivska St, 14, Kyiv, Ukraine, 04070",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 22,
-              "minute": 30
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 2:00 – 10:30 PM",
-          "Tuesday: 2:00 – 10:30 PM",
-          "Wednesday: 2:00 – 10:30 PM",
-          "Thursday: 2:00 – 10:30 PM",
-          "Friday: 2:00 – 10:30 PM",
-          "Saturday: 2:00 – 10:30 PM",
-          "Sunday: 2:00 – 10:30 PM"
-        ],
-        "nextOpenTime": "2024-12-02T12:00:00Z"
-      },
-      "displayName": {
-        "text": "Punkraft",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJDXnrgVrO1EAReQx2fE1Cipw",
-      "types": [
-        "bar",
-        "pub",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Yevhena Chykalenka St, 20, Kyiv, Ukraine, 01004",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 12:00 – 10:00 PM",
-          "Tuesday: 12:00 – 10:00 PM",
-          "Wednesday: 12:00 – 10:00 PM",
-          "Thursday: 12:00 – 10:00 PM",
-          "Friday: 12:00 – 11:00 PM",
-          "Saturday: 12:00 – 11:00 PM",
-          "Sunday: 12:00 – 10:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T10:00:00Z"
-      },
-      "displayName": {
-        "text": "The Drinkery",
-        "languageCode": "uk"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJDWv5CGvO1EAR483HIreXzwg",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Nyzhnii Val St, 19, Kyiv, Ukraine, 04070",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 4:00 – 11:00 PM",
-          "Tuesday: 4:00 – 11:00 PM",
-          "Wednesday: 4:00 – 11:00 PM",
-          "Thursday: 4:00 – 11:00 PM",
-          "Friday: 4:00 – 11:00 PM",
-          "Saturday: 4:00 – 11:00 PM",
-          "Sunday: 4:00 – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T14:00:00Z"
-      },
-      "displayName": {
-        "text": "Pink Freud Kyiv",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJ_Tzqn_zO1EARoXcb549KajE",
-      "types": [
-        "pub",
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Velyka Vasylkivska St, 43/16, Kyiv, Ukraine, 01004",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 12:00 – 11:00 PM",
-          "Tuesday: 12:00 – 11:00 PM",
-          "Wednesday: 12:00 – 11:00 PM",
-          "Thursday: 12:00 – 11:00 PM",
-          "Friday: 12:00 – 11:00 PM",
-          "Saturday: 12:00 – 11:00 PM",
-          "Sunday: 12:00 – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T10:00:00Z"
-      },
-      "displayName": {
-        "text": "Dorothy Pub",
-        "languageCode": "en"
-      },
-      "primaryType": "pub"
-    },
-    {
-      "id": "ChIJe6soBlbO1EARBP6wvrS--4k",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Velyka Vasylkivska St, 16, Kyiv, Ukraine, 01044",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 22,
-              "minute": 30
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 12:00 – 10:00 PM",
-          "Tuesday: 12:00 – 10:00 PM",
-          "Wednesday: 12:00 – 10:00 PM",
-          "Thursday: 12:00 – 10:00 PM",
-          "Friday: 12:00 – 10:30 PM",
-          "Saturday: 12:00 – 10:30 PM",
-          "Sunday: 12:00 – 10:30 PM"
-        ],
-        "nextOpenTime": "2024-12-02T10:00:00Z"
-      },
-      "displayName": {
-        "text": "Drunk Cherry",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJUbiqmRXO1EARRcQEzi-UMHw",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Khoryva St, 45/24, Kyiv, Ukraine, 04071",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 22,
-              "minute": 45
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 22,
-              "minute": 45
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 22,
-              "minute": 45
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 22,
-              "minute": 45
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 22,
-              "minute": 45
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 22,
-              "minute": 45
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 22,
-              "minute": 45
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 11:00 AM – 10:45 PM",
-          "Tuesday: 11:00 AM – 10:45 PM",
-          "Wednesday: 11:00 AM – 10:45 PM",
-          "Thursday: 11:00 AM – 10:45 PM",
-          "Friday: 11:00 AM – 10:45 PM",
-          "Saturday: 11:00 AM – 10:45 PM",
-          "Sunday: 11:00 AM – 10:45 PM"
-        ],
-        "nextOpenTime": "2024-12-02T09:00:00Z"
-      },
-      "displayName": {
-        "text": "AMIGOS BAR",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJ__8_f1bO1EARB6x7Vy9pvis",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Khreschatyk St, 23А, Kyiv, Ukraine, 01001",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 11:00 AM – 11:00 PM",
-          "Tuesday: 11:00 AM – 11:00 PM",
-          "Wednesday: 11:00 AM – 11:00 PM",
-          "Thursday: 11:00 AM – 11:00 PM",
-          "Friday: 11:00 AM – 11:00 PM",
-          "Saturday: 11:00 AM – 11:00 PM",
-          "Sunday: 11:00 AM – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T09:00:00Z"
-      },
-      "displayName": {
-        "text": "Bilyi Nalyv",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJhdp8qmvO1EARuPNBIYAUKxM",
-      "types": [
-        "bar",
-        "night_club",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Verkhnii Val St, 18, Kyiv, Ukraine, 04071",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 15,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 22,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 15,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 22,
-              "minute": 30
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 4:00 – 10:30 PM",
-          "Tuesday: 4:00 – 10:30 PM",
-          "Wednesday: 4:00 – 10:30 PM",
-          "Thursday: 4:00 – 10:30 PM",
-          "Friday: 4:00 – 10:30 PM",
-          "Saturday: 3:00 – 10:30 PM",
-          "Sunday: 3:00 – 10:30 PM"
-        ],
-        "nextOpenTime": "2024-12-02T14:00:00Z"
-      },
-      "displayName": {
-        "text": "Khvylʹovyy",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJke48jvbP1EARkRfkVqAz0GQ",
-      "types": [
-        "pub",
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Ihorivska St, 13/5, Kyiv, Ukraine, 02000",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 21,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 21,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 21,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 21,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 21,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 12,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 22,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 16,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 21,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 12:00 – 9:00 PM",
-          "Tuesday: 12:00 – 9:00 PM",
-          "Wednesday: 12:00 – 9:00 PM",
-          "Thursday: 12:00 – 9:00 PM",
-          "Friday: 12:00 – 10:00 PM",
-          "Saturday: 4:00 – 9:00 PM",
-          "Sunday: 4:00 – 9:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T10:00:00Z"
-      },
-      "displayName": {
-        "text": "Docker-G Pub",
-        "languageCode": "uk"
-      },
-      "primaryType": "pub"
-    },
-    {
-      "id": "ChIJlQET1KDP1EAR6_YDYfdilmo",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Velyka Zhytomyrska St, 34, Kyiv, Ukraine, 02000",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 15,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 17,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 15,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 5:00 – 11:00 PM",
-          "Tuesday: 5:00 – 11:00 PM",
-          "Wednesday: 5:00 – 11:00 PM",
-          "Thursday: 5:00 – 11:00 PM",
-          "Friday: 5:00 – 11:00 PM",
-          "Saturday: 3:00 – 11:00 PM",
-          "Sunday: 3:00 – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T15:00:00Z"
-      },
-      "displayName": {
-        "text": "the cinematographer’s party",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJF0SJDTDP1EARDzXAxMzprNo",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Bohdana Khmel'nyts'koho St, 23, Kyiv, Ukraine, 01030",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 23,
-              "minute": 0
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 14,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 23,
-              "minute": 0
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 2:00 – 11:00 PM",
-          "Tuesday: 2:00 – 11:00 PM",
-          "Wednesday: 2:00 – 11:00 PM",
-          "Thursday: 2:00 – 11:00 PM",
-          "Friday: 2:00 – 11:00 PM",
-          "Saturday: 2:00 – 11:00 PM",
-          "Sunday: 2:00 – 11:00 PM"
-        ],
-        "nextOpenTime": "2024-12-02T12:00:00Z"
-      },
-      "displayName": {
-        "text": "Saint Bar",
-        "languageCode": "ru"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJNb4CTP_O1EAR8IIasChOAOY",
-      "types": [
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Tarasa Shevchenko Blvd, 1, Kyiv, Ukraine, 01004",
-      "displayName": {
-        "text": "Loggerhead",
-        "languageCode": "en"
-      },
-      "primaryType": "bar"
-    },
-    {
-      "id": "ChIJrSSEulbO1EARwDqw9T1ZZhI",
-      "types": [
-        "pub",
-        "bar",
-        "point_of_interest",
-        "establishment"
-      ],
-      "formattedAddress": "Khreschatyk St, 19a, Kyiv, Ukraine, 01001",
-      "regularOpeningHours": {
-        "openNow": false,
-        "periods": [
-          {
-            "open": {
-              "day": 0,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 0,
-              "hour": 21,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 1,
-              "hour": 21,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 2,
-              "hour": 21,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 3,
-              "hour": 21,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 4,
-              "hour": 21,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 5,
-              "hour": 21,
-              "minute": 30
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "hour": 11,
-              "minute": 0
-            },
-            "close": {
-              "day": 6,
-              "hour": 21,
-              "minute": 30
-            }
-          }
-        ],
-        "weekdayDescriptions": [
-          "Monday: 11:00 AM – 9:30 PM",
-          "Tuesday: 11:00 AM – 9:30 PM",
-          "Wednesday: 11:00 AM – 9:30 PM",
-          "Thursday: 11:00 AM – 9:30 PM",
-          "Friday: 11:00 AM – 9:30 PM",
-          "Saturday: 11:00 AM – 9:30 PM",
-          "Sunday: 11:00 AM – 9:30 PM"
-        ],
-        "nextOpenTime": "2024-12-02T09:00:00Z"
-      },
-      "displayName": {
-        "text": "Бочка PUB",
-        "languageCode": "uk"
-      },
-      "primaryType": "pub"
-    }
-  ]
+	"places": [
+		{
+			"id": "ChIJO6gJPPnO1EARG3ZRIZi4OV4",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Vulytsya Tereshchenkivsʹka, 17Б, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 11:00 PM",
+					"Tuesday: 11:00 AM – 11:00 PM",
+					"Wednesday: 11:00 AM – 11:00 PM",
+					"Thursday: 11:00 AM – 11:00 PM",
+					"Friday: 11:00 AM – 11:00 PM",
+					"Saturday: 11:00 AM – 11:00 PM",
+					"Sunday: 11:00 AM – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "Squat17B",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4406014, 30.5151377]
+		},
+		{
+			"id": "ChIJZZjzMlbO1EAREY6IYK_ghvA",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Yevhena Chykalenka St, 20А, Kyiv, Ukraine, 01004",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 11:00 PM",
+					"Tuesday: 11:00 AM – 11:00 PM",
+					"Wednesday: 11:00 AM – 11:00 PM",
+					"Thursday: 11:00 AM – 11:00 PM",
+					"Friday: 11:00 AM – 11:00 PM",
+					"Saturday: 11:00 AM – 11:00 PM",
+					"Sunday: 11:00 AM – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "ZMIST Театральна",
+				"languageCode": "uk"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4446621, 30.5172071]
+		},
+		{
+			"id": "ChIJ24kv6BDP1EARtgsmvxf9blg",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Leonida Pervomais'koho St, 7, Kyiv, Ukraine, 01133",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 11:00 PM",
+					"Tuesday: 11:00 AM – 11:00 PM",
+					"Wednesday: 11:00 AM – 11:00 PM",
+					"Thursday: 11:00 AM – 11:00 PM",
+					"Friday: 11:00 AM – 11:00 PM",
+					"Saturday: 11:00 AM – 11:00 PM",
+					"Sunday: 11:00 AM – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "Zmist bar",
+				"languageCode": "uk"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.43471510000001, 30.5326558]
+		},
+		{
+			"id": "ChIJaRo8zE_P1EARx5Uw_Ys-WZE",
+			"types": ["pub", "bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Kniaziv Ostrozkykh St, 8, Korpus 7, Kyiv, Ukraine, 01029",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 12:00 – 11:00 PM",
+					"Tuesday: 12:00 – 11:00 PM",
+					"Wednesday: 12:00 – 11:00 PM",
+					"Thursday: 12:00 – 11:00 PM",
+					"Friday: 12:00 – 11:00 PM",
+					"Saturday: 12:00 – 11:00 PM",
+					"Sunday: 12:00 – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T10:00:00Z"
+			},
+			"displayName": {
+				"text": "Pepper's Club",
+				"languageCode": "uk"
+			},
+			"primaryType": "pub",
+			"coordinates": [50.4412061, 30.543575]
+		},
+		{
+			"id": "ChIJ3W3CdwDP1EARfRd8f6aTwNg",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Antonovycha St, 97, Kyiv, Ukraine, 03150",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 11:00 PM",
+					"Tuesday: 11:00 AM – 11:00 PM",
+					"Wednesday: 11:00 AM – 11:00 PM",
+					"Thursday: 11:00 AM – 11:00 PM",
+					"Friday: 11:00 AM – 11:00 PM",
+					"Saturday: 11:00 AM – 11:00 PM",
+					"Sunday: 11:00 AM – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "Zmist Bar",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4240335, 30.516464]
+		},
+		{
+			"id": "ChIJfxLYDlbO1EARs7Y-ATC2nlg",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Khreschatyk St, 44б, Kyiv, Ukraine, 01001",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 5:00 – 11:00 PM",
+					"Tuesday: 5:00 – 11:00 PM",
+					"Wednesday: 5:00 – 11:00 PM",
+					"Thursday: 5:00 – 11:00 PM",
+					"Friday: 4:00 – 11:00 PM",
+					"Saturday: 4:00 – 11:00 PM",
+					"Sunday: 4:00 – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T15:00:00Z"
+			},
+			"displayName": {
+				"text": "Barman Dictat",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4438493, 30.519605]
+		},
+		{
+			"id": "ChIJAaNd4l3O1EARROstD6Us150",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Bulvarno-Kudriavska St, 9, Kyiv, Ukraine, 04053",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 15,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 15,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 4:00 – 10:00 PM",
+					"Tuesday: 4:00 – 10:00 PM",
+					"Wednesday: 4:00 – 10:00 PM",
+					"Thursday: 4:00 – 11:00 PM",
+					"Friday: 4:00 – 11:00 PM",
+					"Saturday: 3:00 – 11:00 PM",
+					"Sunday: 3:00 – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T14:00:00Z"
+			},
+			"displayName": {
+				"text": "Lysa Hora",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4534493, 30.504217]
+		},
+		{
+			"id": "ChIJl4696EbO1EAReEJTvMPF4NE",
+			"types": ["bar", "pub", "point_of_interest", "establishment"],
+			"formattedAddress": "Ihorivska St, 14, Kyiv, Ukraine, 04070",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 30
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 2:00 – 10:30 PM",
+					"Tuesday: 2:00 – 10:30 PM",
+					"Wednesday: 2:00 – 10:30 PM",
+					"Thursday: 2:00 – 10:30 PM",
+					"Friday: 2:00 – 10:30 PM",
+					"Saturday: 2:00 – 10:30 PM",
+					"Sunday: 2:00 – 10:30 PM"
+				],
+				"nextOpenTime": "2024-12-02T12:00:00Z"
+			},
+			"displayName": {
+				"text": "Punkraft",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4606169, 30.5246884]
+		},
+		{
+			"id": "ChIJDXnrgVrO1EAReQx2fE1Cipw",
+			"types": ["bar", "pub", "point_of_interest", "establishment"],
+			"formattedAddress": "Yevhena Chykalenka St, 20, Kyiv, Ukraine, 01004",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 12:00 – 10:00 PM",
+					"Tuesday: 12:00 – 10:00 PM",
+					"Wednesday: 12:00 – 10:00 PM",
+					"Thursday: 12:00 – 10:00 PM",
+					"Friday: 12:00 – 11:00 PM",
+					"Saturday: 12:00 – 11:00 PM",
+					"Sunday: 12:00 – 10:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T10:00:00Z"
+			},
+			"displayName": {
+				"text": "The Drinkery",
+				"languageCode": "uk"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.444479, 30.51753059999999]
+		},
+		{
+			"id": "ChIJDWv5CGvO1EAR483HIreXzwg",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Nyzhnii Val St, 19, Kyiv, Ukraine, 04070",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 4:00 – 11:00 PM",
+					"Tuesday: 4:00 – 11:00 PM",
+					"Wednesday: 4:00 – 11:00 PM",
+					"Thursday: 4:00 – 11:00 PM",
+					"Friday: 4:00 – 11:00 PM",
+					"Saturday: 4:00 – 11:00 PM",
+					"Sunday: 4:00 – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T14:00:00Z"
+			},
+			"displayName": {
+				"text": "Pink Freud Kyiv",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4656691, 30.5110231]
+		},
+		{
+			"id": "ChIJ_Tzqn_zO1EARoXcb549KajE",
+			"types": ["pub", "bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Velyka Vasylkivska St, 43/16, Kyiv, Ukraine, 01004",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 12:00 – 11:00 PM",
+					"Tuesday: 12:00 – 11:00 PM",
+					"Wednesday: 12:00 – 11:00 PM",
+					"Thursday: 12:00 – 11:00 PM",
+					"Friday: 12:00 – 11:00 PM",
+					"Saturday: 12:00 – 11:00 PM",
+					"Sunday: 12:00 – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T10:00:00Z"
+			},
+			"displayName": {
+				"text": "Dorothy Pub",
+				"languageCode": "en"
+			},
+			"primaryType": "pub",
+			"coordinates": [50.4362427, 30.5164093]
+		},
+		{
+			"id": "ChIJe6soBlbO1EARBP6wvrS--4k",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Velyka Vasylkivska St, 16, Kyiv, Ukraine, 01044",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 30
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 12:00 – 10:00 PM",
+					"Tuesday: 12:00 – 10:00 PM",
+					"Wednesday: 12:00 – 10:00 PM",
+					"Thursday: 12:00 – 10:00 PM",
+					"Friday: 12:00 – 10:30 PM",
+					"Saturday: 12:00 – 10:30 PM",
+					"Sunday: 12:00 – 10:30 PM"
+				],
+				"nextOpenTime": "2024-12-02T10:00:00Z"
+			},
+			"displayName": {
+				"text": "Drunk Cherry",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.439978, 30.5178342]
+		},
+		{
+			"id": "ChIJUbiqmRXO1EARRcQEzi-UMHw",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Khoryva St, 45/24, Kyiv, Ukraine, 04071",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 45
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 45
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 45
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 45
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 45
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 45
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 45
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 10:45 PM",
+					"Tuesday: 11:00 AM – 10:45 PM",
+					"Wednesday: 11:00 AM – 10:45 PM",
+					"Thursday: 11:00 AM – 10:45 PM",
+					"Friday: 11:00 AM – 10:45 PM",
+					"Saturday: 11:00 AM – 10:45 PM",
+					"Sunday: 11:00 AM – 10:45 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "AMIGOS BAR",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.46938309999999, 30.5198424]
+		},
+		{
+			"id": "ChIJ__8_f1bO1EARB6x7Vy9pvis",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Khreschatyk St, 23А, Kyiv, Ukraine, 01001",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 11:00 PM",
+					"Tuesday: 11:00 AM – 11:00 PM",
+					"Wednesday: 11:00 AM – 11:00 PM",
+					"Thursday: 11:00 AM – 11:00 PM",
+					"Friday: 11:00 AM – 11:00 PM",
+					"Saturday: 11:00 AM – 11:00 PM",
+					"Sunday: 11:00 AM – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "Bilyi Nalyv",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.445329, 30.5222788]
+		},
+		{
+			"id": "ChIJhdp8qmvO1EARuPNBIYAUKxM",
+			"types": ["bar", "night_club", "point_of_interest", "establishment"],
+			"formattedAddress": "Verkhnii Val St, 18, Kyiv, Ukraine, 04071",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 15,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 15,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 22,
+							"minute": 30
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 4:00 – 10:30 PM",
+					"Tuesday: 4:00 – 10:30 PM",
+					"Wednesday: 4:00 – 10:30 PM",
+					"Thursday: 4:00 – 10:30 PM",
+					"Friday: 4:00 – 10:30 PM",
+					"Saturday: 3:00 – 10:30 PM",
+					"Sunday: 3:00 – 10:30 PM"
+				],
+				"nextOpenTime": "2024-12-02T14:00:00Z"
+			},
+			"displayName": {
+				"text": "Khvylʹovyy",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4654304, 30.5119882]
+		},
+		{
+			"id": "ChIJke48jvbP1EARkRfkVqAz0GQ",
+			"types": ["pub", "bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Ihorivska St, 13/5, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 21,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 12,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 22,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 16,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 21,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 12:00 – 9:00 PM",
+					"Tuesday: 12:00 – 9:00 PM",
+					"Wednesday: 12:00 – 9:00 PM",
+					"Thursday: 12:00 – 9:00 PM",
+					"Friday: 12:00 – 10:00 PM",
+					"Saturday: 4:00 – 9:00 PM",
+					"Sunday: 4:00 – 9:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T10:00:00Z"
+			},
+			"displayName": {
+				"text": "Docker-G Pub",
+				"languageCode": "uk"
+			},
+			"primaryType": "pub",
+			"coordinates": [50.4616493, 30.5253352]
+		},
+		{
+			"id": "ChIJlQET1KDP1EAR6_YDYfdilmo",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Velyka Zhytomyrska St, 34, Kyiv, Ukraine, 02000",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 15,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 17,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 15,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 5:00 – 11:00 PM",
+					"Tuesday: 5:00 – 11:00 PM",
+					"Wednesday: 5:00 – 11:00 PM",
+					"Thursday: 5:00 – 11:00 PM",
+					"Friday: 5:00 – 11:00 PM",
+					"Saturday: 3:00 – 11:00 PM",
+					"Sunday: 3:00 – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T15:00:00Z"
+			},
+			"displayName": {
+				"text": "the cinematographer’s party",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4554067, 30.5093744]
+		},
+		{
+			"id": "ChIJF0SJDTDP1EARDzXAxMzprNo",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Bohdana Khmel'nyts'koho St, 23, Kyiv, Ukraine, 01030",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 23,
+							"minute": 0
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 14,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 23,
+							"minute": 0
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 2:00 – 11:00 PM",
+					"Tuesday: 2:00 – 11:00 PM",
+					"Wednesday: 2:00 – 11:00 PM",
+					"Thursday: 2:00 – 11:00 PM",
+					"Friday: 2:00 – 11:00 PM",
+					"Saturday: 2:00 – 11:00 PM",
+					"Sunday: 2:00 – 11:00 PM"
+				],
+				"nextOpenTime": "2024-12-02T12:00:00Z"
+			},
+			"displayName": {
+				"text": "Saint Bar",
+				"languageCode": "ru"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.446057, 30.5115394]
+		},
+		{
+			"id": "ChIJNb4CTP_O1EAR8IIasChOAOY",
+			"types": ["bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Tarasa Shevchenko Blvd, 1, Kyiv, Ukraine, 01004",
+			"displayName": {
+				"text": "Loggerhead",
+				"languageCode": "en"
+			},
+			"primaryType": "bar",
+			"coordinates": [50.4421711, 30.519406]
+		},
+		{
+			"id": "ChIJrSSEulbO1EARwDqw9T1ZZhI",
+			"types": ["pub", "bar", "point_of_interest", "establishment"],
+			"formattedAddress": "Khreschatyk St, 19a, Kyiv, Ukraine, 01001",
+			"regularOpeningHours": {
+				"openNow": false,
+				"periods": [
+					{
+						"open": {
+							"day": 0,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 0,
+							"hour": 21,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 1,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 1,
+							"hour": 21,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 2,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 2,
+							"hour": 21,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 3,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 3,
+							"hour": 21,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 4,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 4,
+							"hour": 21,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 5,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 5,
+							"hour": 21,
+							"minute": 30
+						}
+					},
+					{
+						"open": {
+							"day": 6,
+							"hour": 11,
+							"minute": 0
+						},
+						"close": {
+							"day": 6,
+							"hour": 21,
+							"minute": 30
+						}
+					}
+				],
+				"weekdayDescriptions": [
+					"Monday: 11:00 AM – 9:30 PM",
+					"Tuesday: 11:00 AM – 9:30 PM",
+					"Wednesday: 11:00 AM – 9:30 PM",
+					"Thursday: 11:00 AM – 9:30 PM",
+					"Friday: 11:00 AM – 9:30 PM",
+					"Saturday: 11:00 AM – 9:30 PM",
+					"Sunday: 11:00 AM – 9:30 PM"
+				],
+				"nextOpenTime": "2024-12-02T09:00:00Z"
+			},
+			"displayName": {
+				"text": "Бочка PUB",
+				"languageCode": "uk"
+			},
+			"primaryType": "pub",
+			"coordinates": [50.4469839, 30.523721]
+		}
+	]
 }

@@ -1,6 +1,8 @@
 "use client";
 
 import { Flex, Text, Button } from "@radix-ui/themes";
+import mapboxgl from "mapbox-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
 // places imports
 import parks from "../../places/park.json";
 import cafes from "../../places/cafe.json";
@@ -9,7 +11,17 @@ import restaurants from "../../places/restaraunt.json";
 
 import LocationInfo from "./components/LocationInfo";
 import Map from "./components/Map";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import {
+	Accordion,
+	AccordionContent,
+	AccordionItem,
+	AccordionTrigger,
+} from "@/components/ui/accordion";
+
+interface LocationInfoProps {
+	onCategorySelect: (category: string | null) => void;
+}
 
 interface OpeningHoursTime {
 	day: number;
@@ -31,25 +43,7 @@ interface Place {
 	id: string;
 	openingHours: OpeningHours;
 	isOpen: boolean;
-}
-
-async function getCoords(address: string): Promise<[number, number]> {
-	const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
-	const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${googleMapsApiKey}`;
-
-	try {
-		const response = await fetch(url);
-		const data = await response.json();
-
-		if (data.status === "OK") {
-			const location = data.results[0].geometry.location;
-			return [location.lat, location.lng];
-		}
-		return [0, 0]; // Default coordinates if geocoding fails
-	} catch (error) {
-		console.error("Error fetching coordinates:", error);
-		return [0, 0]; // Default coordinates on error
-	}
+	coords: [number, number];
 }
 
 const isOpenAtTime = (
@@ -60,7 +54,7 @@ const isOpenAtTime = (
 	const currentHour = currentDate.getHours();
 	const currentMinute = currentDate.getMinutes();
 
-	const currentDayPeriod = openingHours.periods?.find(
+	const currentDayPeriod = openingHours?.periods?.find(
 		(period) => period.open.day === currentDay
 	);
 
@@ -93,12 +87,45 @@ const isOpenAtTime = (
 };
 
 function Home() {
+	const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+	const [placeData, setPlaceData] = useState<Place[]>([]);
+
+	function getPlaceData(data: any): Place[] {
+		return data.places.map((place: any) => ({
+			name: place.displayName.text,
+			id: place.id,
+			openingHours: place.regularOpeningHours as OpeningHours,
+			isOpen: isOpenAtTime(
+				place.regularOpeningHours as OpeningHours,
+				new Date() // Provide default value if currentTime is null
+			),
+			coords: [place.coordinates[0], place.coordinates[1]],
+		}));
+	}
+
+	const cafeData = getPlaceData(cafes);
+	const restaurantData = getPlaceData(restaurants);
+	const parkData = getPlaceData(parks);
+	const barData = getPlaceData(bars);
+
+	useEffect(() => {
+		if (selectedCategory === "cafes") {
+			setPlaceData(cafeData);
+		} else if (selectedCategory === "restaurants") {
+			setPlaceData(restaurantData);
+		} else if (selectedCategory === "parks") {
+			setPlaceData(parkData);
+		} else if (selectedCategory === "bars") {
+			setPlaceData(barData);
+		}
+	}, [selectedCategory]);
+
 	return (
 		<main className="flex flex-row h-screen p-4 gap-4">
 			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col w-1/3 px-4">
-				<LocationInfo />
+				<LocationInfo onCategorySelect={setSelectedCategory} />
 			</div>
-			<Map />
+			<Map selectedCategory={selectedCategory} placeData={placeData} />
 		</main>
 	);
 }

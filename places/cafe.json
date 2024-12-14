@@ -8,7 +8,8 @@
 				"text": "044Cafe",
 				"languageCode": "uk"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4254956, 30.5182225]
 		},
 		{
 			"id": "ChIJE8bcxKrP1EARGOGL5B7039c",
@@ -117,7 +118,8 @@
 				"text": "Dyletant",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.471764, 30.5057655]
 		},
 		{
 			"id": "ChIJfTeCctrP1EARZiawquFywfQ",
@@ -226,7 +228,8 @@
 				"text": "Чайка",
 				"languageCode": "ru"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.44130089999999, 30.5233874]
 		},
 		{
 			"id": "ChIJ20buSFzO1EAR7CR0gC_jLik",
@@ -335,7 +338,8 @@
 				"text": "One Tea Tree",
 				"languageCode": "uk"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.453607, 30.5089572]
 		},
 		{
 			"id": "ChIJowmmz_HP1EARag2S4k5-08Y",
@@ -444,7 +448,8 @@
 				"text": "ЛИПА",
 				"languageCode": "ru"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4493725, 30.5081214]
 		},
 		{
 			"id": "ChIJH7CqRbLP1EARpTgOUH7srIs",
@@ -553,7 +558,8 @@
 				"text": "Katimō Cafe",
 				"languageCode": "uk"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4516618, 30.5112914]
 		},
 		{
 			"id": "ChIJscY1aZ3P1EAR9zBc80I_G2g",
@@ -662,7 +668,8 @@
 				"text": "Зустріч кафе",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4417297, 30.520619]
 		},
 		{
 			"id": "ChIJr3iOrP3P1EAREPYLDmmRTGU",
@@ -771,7 +778,8 @@
 				"text": "CITY-ZEN cafe&bar",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4558642, 30.5127801]
 		},
 		{
 			"id": "ChIJYTHxXCbP1EARqoMuHw4Q9R8",
@@ -880,7 +888,8 @@
 				"text": "JUJU",
 				"languageCode": "uk"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.447515, 30.519391]
 		},
 		{
 			"id": "ChIJUQva8P7O1EARu2rQt4rtuDI",
@@ -989,7 +998,8 @@
 				"text": "Balmelli Casual Cafe",
 				"languageCode": "ru"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4393588, 30.5197531]
 		},
 		{
 			"id": "ChIJjX5APmLO1EARR5YmtoqlcCA",
@@ -1098,7 +1108,8 @@
 				"text": "Cafe Charlotte",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.45305159999999, 30.4903556]
 		},
 		{
 			"id": "ChIJh9ooWPnO1EARLkIasBz7dDs",
@@ -1207,7 +1218,8 @@
 				"text": "Alʹtruyist",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4393594, 30.5140004]
 		},
 		{
 			"id": "ChIJ9V8_bUDO1EARiXjNanApD-w",
@@ -1316,7 +1328,8 @@
 				"text": "Kaffa",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4659781, 30.5201782]
 		},
 		{
 			"id": "ChIJN7nJGUrP1EARtjadN2bydhQ",
@@ -1425,7 +1438,8 @@
 				"text": "Home Cafe",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4001087, 30.5199639]
 		},
 		{
 			"id": "ChIJFRueUvzO1EARm1lmAm6UugY",
@@ -1534,7 +1548,8 @@
 				"text": "TAKAVA 1.0",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4362427, 30.5164093]
 		},
 		{
 			"id": "ChIJLwYIEX7P1EARoM4L5ZnAxUc",
@@ -1643,7 +1658,8 @@
 				"text": "Mates",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4517284, 30.4947269]
 		},
 		{
 			"id": "ChIJ7VG1RWvO1EARHiLgnX42-FU",
@@ -1752,7 +1768,8 @@
 				"text": "STORIES cafe",
 				"languageCode": "uk"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4673619, 30.5115338]
 		},
 		{
 			"id": "ChIJ9ZtmNRXD1EARBfLA27Xj7Ng",
@@ -1861,7 +1878,8 @@
 				"text": "Frankly",
 				"languageCode": "en"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.448783, 30.5098667]
 		},
 		{
 			"id": "ChIJCU2Ua53P1EARM_JCC-PBtQA",
@@ -1970,7 +1988,8 @@
 				"text": "OG Burger",
 				"languageCode": "ru"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.4357874, 30.5921485]
 		},
 		{
 			"id": "ChIJn0295d_P1EARVnuRgCZuD2g",
@@ -2079,7 +2098,8 @@
 				"text": "ПАШТЕТ на вул.Хрещатик",
 				"languageCode": "ru"
 			},
-			"primaryType": "cafe"
+			"primaryType": "cafe",
+			"coordinates": [50.44902099999999, 30.522323]
 		}
 	]
 }

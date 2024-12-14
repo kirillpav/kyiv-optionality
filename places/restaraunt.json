@@ -113,7 +113,8 @@
 				"text": "McDonald's",
 				"languageCode": "en"
 			},
-			"primaryType": "fast_food_restaurant"
+			"primaryType": "fast_food_restaurant",
+			"coordinates": [50.408382, 30.519555]
 		},
 		{
 			"id": "ChIJ6T30ACLP1EARHwUM8C-7_20",
@@ -222,7 +223,8 @@
 				"text": "Будинок Великого Дива",
 				"languageCode": "ru"
 			},
-			"primaryType": "restaurant"
+			"primaryType": "restaurant",
+			"coordinates": [50.4347219, 30.5172752]
 		},
 		{
 			"id": "ChIJGcdSOvvO1EARrd1ld3wZWu8",
@@ -337,7 +339,8 @@
 				"text": "Musafir",
 				"languageCode": "en"
 			},
-			"primaryType": "middle_eastern_restaurant"
+			"primaryType": "middle_eastern_restaurant",
+			"coordinates": [50.4360238, 30.5078436]
 		},
 		{
 			"id": "ChIJnxzJyf7O1EARoJ9OclXxvxA",
@@ -561,7 +564,8 @@
 				"text": "Veranda Na Dnipri",
 				"languageCode": "en"
 			},
-			"primaryType": "restaurant"
+			"primaryType": "restaurant",
+			"coordinates": [50.4272815, 30.5707402]
 		},
 		{
 			"id": "ChIJC1LeFFbO1EARyW-2azth7os",
@@ -676,7 +680,8 @@
 				"text": "Musafir",
 				"languageCode": "en"
 			},
-			"primaryType": "middle_eastern_restaurant"
+			"primaryType": "middle_eastern_restaurant",
+			"coordinates": [50.4446417, 30.5199451]
 		},
 		{
 			"id": "ChIJB7xWP4_O1EARYOxU8nmxLQI",
@@ -791,7 +796,8 @@
 				"text": "McDonald’s",
 				"languageCode": "en"
 			},
-			"primaryType": "fast_food_restaurant"
+			"primaryType": "fast_food_restaurant",
+			"coordinates": [50.448123, 30.4792176]
 		},
 		{
 			"id": "ChIJC6PJY9zP1EARpEaB4_SPM6s",
@@ -1021,7 +1027,8 @@
 				"text": "Mimosa",
 				"languageCode": "en"
 			},
-			"primaryType": "pizza_restaurant"
+			"primaryType": "pizza_restaurant",
+			"coordinates": [50.4417506, 30.5227915]
 		},
 		{
 			"id": "ChIJdRmJK5PO1EARST9JbAKRoZ4",
@@ -1130,7 +1137,8 @@
 				"text": "Puzata hata",
 				"languageCode": "en"
 			},
-			"primaryType": "restaurant"
+			"primaryType": "restaurant",
+			"coordinates": [50.437653, 30.4886904]
 		},
 		{
 			"id": "ChIJ_5oCh4zP1EARGOYCZLiG_Xw",
@@ -1239,7 +1247,8 @@
 				"text": "100 rokiv tomu vpered",
 				"languageCode": "en"
 			},
-			"primaryType": "restaurant"
+			"primaryType": "restaurant",
+			"coordinates": [50.4572479, 30.5175995]
 		},
 		{
 			"id": "ChIJXVn_QlHP1EARzCijTlmusyI",
@@ -1354,7 +1363,8 @@
 				"text": "Musafir",
 				"languageCode": "uk"
 			},
-			"primaryType": "middle_eastern_restaurant"
+			"primaryType": "middle_eastern_restaurant",
+			"coordinates": [50.4392015, 30.5195816]
 		},
 		{
 			"id": "ChIJjWkM4DbZ1EAR--4oZh9XwGA",
@@ -1469,7 +1479,8 @@
 				"text": "McDonald's",
 				"languageCode": "en"
 			},
-			"primaryType": "fast_food_restaurant"
+			"primaryType": "fast_food_restaurant",
+			"coordinates": [50.4469685, 30.50905999999999]
 		},
 		{
 			"id": "ChIJyfyHFfzO1EARF9FHzdg6c4g",
@@ -1578,7 +1589,8 @@
 				"text": "Puzata Hata",
 				"languageCode": "en"
 			},
-			"primaryType": "restaurant"
+			"primaryType": "restaurant",
+			"coordinates": [50.4374353, 30.5154981]
 		},
 		{
 			"id": "ChIJX4dpWHvO1EARPMfnxsa7cCs",
@@ -1693,7 +1705,8 @@
 				"text": "VINO e CUCINA",
 				"languageCode": "en"
 			},
-			"primaryType": "italian_restaurant"
+			"primaryType": "italian_restaurant",
+			"coordinates": [50.4582338, 30.487395]
 		},
 		{
 			"id": "ChIJud7obz_O1EARvvaO3Gl5BUk",
@@ -1923,7 +1936,8 @@
 				"text": "McDonald's",
 				"languageCode": "en"
 			},
-			"primaryType": "restaurant"
+			"primaryType": "restaurant",
+			"coordinates": [50.4469839, 30.523721]
 		},
 		{
 			"id": "ChIJF3afFWrP1EARzfE8DP4TiPc",
@@ -2038,7 +2052,8 @@
 				"text": "McDonald's",
 				"languageCode": "en"
 			},
-			"primaryType": "fast_food_restaurant"
+			"primaryType": "fast_food_restaurant",
+			"coordinates": [50.4414612, 30.4895109]
 		},
 		{
 			"id": "ChIJvTIlPVnO1EAR2PGvU34cUbM",
@@ -2153,7 +2168,8 @@
 				"text": "Kytaysʹkyy Pryvit",
 				"languageCode": "en"
 			},
-			"primaryType": "chinese_restaurant"
+			"primaryType": "chinese_restaurant",
+			"coordinates": [50.35915379999999, 30.6879466]
 		},
 		{
 			"id": "ChIJyfyHFfzO1EARSDmyRNEoY7U",
@@ -2262,7 +2278,8 @@
 				"text": "Puzata Hata",
 				"languageCode": "en"
 			},
-			"primaryType": "restaurant"
+			"primaryType": "restaurant",
+			"coordinates": [50.4480631, 30.5233679]
 		}
 	]
 }

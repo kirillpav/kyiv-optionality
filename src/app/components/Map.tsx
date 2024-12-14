@@ -9,96 +9,21 @@ import restaurants from "../../../places/restaraunt.json" assert { type: "json" 
 import parks from "../../../places/park.json" assert { type: "json" };
 import bars from "../../../places/bar.json" assert { type: "json" };
 
-interface Place {
-	name: string;
-	coords: [number, number];
-	status: string;
-}
-
-interface OpeningHoursTime {
-	day: number;
-	hour: number;
-	minute: number;
-}
-
-interface OpeningPeriod {
-	open: OpeningHoursTime;
-	close?: OpeningHoursTime;
-}
 interface OpeningHours {
 	openNow: boolean;
 	periods: OpeningPeriod[];
 	weekdayDescription: string[];
 }
+
 interface Place {
 	name: string;
 	id: string;
 	openingHours: OpeningHours;
 	isOpen: boolean;
+	coords: [number, number];
 }
 
-const isOpenAtTime = (
-	openingHours: OpeningHours,
-	currentDate: Date
-): boolean => {
-	const currentDay = currentDate.getDay();
-	const currentHour = currentDate.getHours();
-	const currentMinute = currentDate.getMinutes();
-
-	const currentDayPeriod = openingHours?.periods?.find(
-		(period) => period.open.day === currentDay
-	);
-
-	if (currentDayPeriod) {
-		const { open, close } = currentDayPeriod;
-
-		if (!close) return true;
-
-		if (
-			open.hour !== undefined &&
-			open.minute !== undefined &&
-			close?.hour !== undefined &&
-			close?.minute !== undefined
-		) {
-			const { hour: startHour, minute: startMinute } = open;
-			const { hour: endHour, minute: endMinute } = close;
-
-			if (
-				(currentHour > startHour ||
-					(currentHour === startHour && currentMinute >= startMinute)) &&
-				(currentHour < endHour ||
-					(currentHour === endHour && currentMinute < endMinute))
-			) {
-				return true;
-			}
-		}
-	}
-
-	return false;
-};
-
-// TODO MAYB COMPINE MAP AND LOCATION INFO INTO ONE COMPONENT
-
-async function getCoords(address: string): Promise<[number, number]> {
-	const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
-	const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${googleMapsApiKey}`;
-
-	try {
-		const response = await fetch(url);
-		const data = await response.json();
-
-		if (data.status === "OK") {
-			const location = data.results[0].geometry.location;
-			return [location.lat, location.lng];
-		}
-		return [0, 0]; // Default coordinates if geocoding fails
-	} catch (error) {
-		console.error("Error fetching coordinates:", error);
-		return [0, 0]; // Default coordinates on error
-	}
-}
-
-export default function Map() {
+function Map(selectedCategory: string | null, placeData: Place[]) {
 	const mapRef = useRef<mapboxgl.Map | null>(null);
 	const mapContainerRef = useRef<HTMLDivElement | null>(null);
 
@@ -150,16 +75,22 @@ export default function Map() {
 		// TODO Add markers for either cafes, restaurants, parks or bars. Based on what is clicked in LocationInfo
 
 		// Adding markers
-		// data.map((data) => {
-		// 	const element = document.createElement("div");
-		// 	element.className = getColorByStatus(data.status);
+		const markers: mapboxgl.Marker[] = [];
 
-		// 	if (mapRef.current && data.coords) {
-		// 		new mapboxgl.Marker(element)
-		// 			.setLngLat([data.coords[0], data.coords[1]])
-		// 			.addTo(mapRef.current);
-		// 	}
-		// });
+		if (selectedCategory && mapRef.current) {
+			placeData.forEach((place) => {
+				const element = document.createElement("div");
+				element.className = place.isOpen
+					? getColorByStatus("open")
+					: getColorByStatus("closed");
+
+				const marker = new mapboxgl.Marker(element)
+					.setLngLat(place.coords)
+					.addTo(mapRef.current!);
+
+				markers.push(marker);
+			});
+		}
 
 		// Add error handling
 		mapRef.current.on("error", (e) => {
@@ -167,6 +98,7 @@ export default function Map() {
 		});
 
 		return () => {
+			markers.forEach((marker) => marker.remove());
 			mapRef.current?.remove();
 		};
 	}, []);
