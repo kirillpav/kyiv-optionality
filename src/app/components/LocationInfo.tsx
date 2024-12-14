@@ -11,34 +11,90 @@ import parks from "../../../places/park.json" assert { type: "json" };
 import cafes from "../../../places/cafe.json" assert { type: "json" };
 import bars from "../../../places/bar.json" assert { type: "json" };
 import restaurants from "../../../places/restaraunt.json" assert { type: "json" };
-function LocationInfo({ onCategorySelect }: LocationInfoProps) {
-	const [currentTime, setCurrentTime] = useState<Date | null>(null);
-	const [category, setCategory] = useState<string | null>(null);
 
-	useEffect(() => {
-		// Get current time in Kyiv
-		const kyivTime = new Date();
-		kyivTime.setHours(kyivTime.getHours() + 10);
-		setCurrentTime(new Date(kyivTime));
-	}, []);
+interface LocationInfoProps {
+	onCategorySelect: (category: string | null) => void;
+	cafeData: Place[];
+	restaurantData: Place[];
+	parkData: Place[];
+	barData: Place[];
+	currentTime: Date | null;
+}
 
-	function getPlaceData(data: any): Place[] {
-		return data.places.map((place: any) => ({
-			name: place.displayName.text,
-			id: place.id,
-			openingHours: place.regularOpeningHours as OpeningHours,
-			isOpen: isOpenAtTime(
-				place.regularOpeningHours as OpeningHours,
-				currentTime ?? new Date() // Provide default value if currentTime is null
-			),
-			coords: [place.coordinates[0], place.coordinates[1]],
-		}));
+interface OpeningHours {
+	openNow: boolean;
+	periods: OpeningPeriod[];
+	weekdayDescription: string[];
+}
+
+interface OpeningHoursTime {
+	day: number;
+	hour: number;
+	minute: number;
+}
+
+interface OpeningPeriod {
+	open: OpeningHoursTime;
+	close?: OpeningHoursTime;
+}
+
+interface Place {
+	name: string;
+	id: string;
+	openingHours: OpeningHours;
+	isOpen: boolean;
+	coords: [number, number];
+}
+
+const isOpenAtTime = (
+	openingHours: OpeningHours,
+	currentDate: Date
+): boolean => {
+	const currentDay = currentDate.getDay();
+	const currentHour = currentDate.getHours();
+	const currentMinute = currentDate.getMinutes();
+
+	const currentDayPeriod = openingHours?.periods?.find(
+		(period) => period.open.day === currentDay
+	);
+
+	if (currentDayPeriod) {
+		const { open, close } = currentDayPeriod;
+
+		if (!close) return true;
+
+		if (
+			open.hour !== undefined &&
+			open.minute !== undefined &&
+			close?.hour !== undefined &&
+			close?.minute !== undefined
+		) {
+			const { hour: startHour, minute: startMinute } = open;
+			const { hour: endHour, minute: endMinute } = close;
+
+			if (
+				(currentHour > startHour ||
+					(currentHour === startHour && currentMinute >= startMinute)) &&
+				(currentHour < endHour ||
+					(currentHour === endHour && currentMinute < endMinute))
+			) {
+				return true;
+			}
+		}
 	}
 
-	const cafeData = getPlaceData(cafes);
-	const restaurantData = getPlaceData(restaurants);
-	const parkData = getPlaceData(parks);
-	const barData = getPlaceData(bars);
+	return false;
+};
+
+function LocationInfo({
+	onCategorySelect,
+	cafeData,
+	restaurantData,
+	parkData,
+	barData,
+	currentTime,
+}: LocationInfoProps) {
+	const [category, setCategory] = useState<string | null>(null);
 
 	const openCafes = cafeData.filter((cafe) => cafe.isOpen).length;
 	const openRestaurants = restaurantData.filter(
@@ -55,7 +111,9 @@ function LocationInfo({ onCategorySelect }: LocationInfoProps) {
 				type="single"
 				collapsible
 				className="w-full"
-				onValueChange={(value) => setCategory(value)}
+				onValueChange={(value) => {
+					onCategorySelect(value);
+				}}
 			>
 				<AccordionItem value="cafes">
 					<AccordionTrigger className="text-lg uppercase">

@@ -19,10 +19,6 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 
-interface LocationInfoProps {
-	onCategorySelect: (category: string | null) => void;
-}
-
 interface OpeningHoursTime {
 	day: number;
 	hour: number;
@@ -89,18 +85,33 @@ const isOpenAtTime = (
 function Home() {
 	const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 	const [placeData, setPlaceData] = useState<Place[]>([]);
+	const [currentTime, setCurrentTime] = useState<Date | null>(null);
+
+	useEffect(() => {
+		// Get current time in Kyiv
+		const kyivTime = new Date();
+		kyivTime.setHours(kyivTime.getHours() + 10);
+		setCurrentTime(new Date(kyivTime));
+	}, []);
 
 	function getPlaceData(data: any): Place[] {
-		return data.places.map((place: any) => ({
-			name: place.displayName.text,
-			id: place.id,
-			openingHours: place.regularOpeningHours as OpeningHours,
-			isOpen: isOpenAtTime(
-				place.regularOpeningHours as OpeningHours,
-				new Date() // Provide default value if currentTime is null
-			),
-			coords: [place.coordinates[0], place.coordinates[1]],
-		}));
+		return data.places
+			.filter(
+				(place: any) => place.coordinates && Array.isArray(place.coordinates)
+			)
+			.map((place: any) => ({
+				name: place.displayName.text,
+				id: place.id,
+				openingHours: place.regularOpeningHours as OpeningHours,
+				isOpen: isOpenAtTime(
+					place.regularOpeningHours as OpeningHours,
+					currentTime ?? new Date()
+				),
+				coords: [place.coordinates[1], place.coordinates[0]] as [
+					number,
+					number
+				],
+			}));
 	}
 
 	const cafeData = getPlaceData(cafes);
@@ -123,7 +134,14 @@ function Home() {
 	return (
 		<main className="flex flex-row h-screen p-4 gap-4">
 			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col w-1/3 px-4">
-				<LocationInfo onCategorySelect={setSelectedCategory} />
+				<LocationInfo
+					onCategorySelect={setSelectedCategory}
+					cafeData={cafeData}
+					restaurantData={restaurantData}
+					parkData={parkData}
+					barData={barData}
+					currentTime={currentTime}
+				/>
 			</div>
 			<Map selectedCategory={selectedCategory} placeData={placeData} />
 		</main>

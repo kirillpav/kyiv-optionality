@@ -4,15 +4,21 @@ import { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-import cafes from "../../../places/cafe.json" assert { type: "json" };
-import restaurants from "../../../places/restaraunt.json" assert { type: "json" };
-import parks from "../../../places/park.json" assert { type: "json" };
-import bars from "../../../places/bar.json" assert { type: "json" };
-
 interface OpeningHours {
 	openNow: boolean;
 	periods: OpeningPeriod[];
 	weekdayDescription: string[];
+}
+
+interface OpeningHoursTime {
+	day: number;
+	hour: number;
+	minute: number;
+}
+
+interface OpeningPeriod {
+	open: OpeningHoursTime;
+	close?: OpeningHoursTime;
 }
 
 interface Place {
@@ -23,9 +29,15 @@ interface Place {
 	coords: [number, number];
 }
 
-function Map(selectedCategory: string | null, placeData: Place[]) {
+interface MapProps {
+	selectedCategory: string | null;
+	placeData: Place[];
+}
+
+const Map = ({ selectedCategory, placeData }: MapProps) => {
 	const mapRef = useRef<mapboxgl.Map | null>(null);
 	const mapContainerRef = useRef<HTMLDivElement | null>(null);
+	const markersRef = useRef<mapboxgl.Marker[]>([]);
 
 	const [zoom, setZoom] = useState(13.5);
 	const [center, setCenter] = useState<[number, number]>([
@@ -41,8 +53,9 @@ function Map(selectedCategory: string | null, placeData: Place[]) {
 		}
 	}
 
+	// Initial map setup
 	useEffect(() => {
-		if (!mapContainerRef.current) return; // Add guard clause
+		if (!mapContainerRef.current) return;
 
 		mapboxgl.accessToken = process.env
 			.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
@@ -72,36 +85,47 @@ function Map(selectedCategory: string | null, placeData: Place[]) {
 			}
 		});
 
-		// TODO Add markers for either cafes, restaurants, parks or bars. Based on what is clicked in LocationInfo
+		return () => {
+			mapRef.current?.remove();
+		};
+	}, []);
 
-		// Adding markers
-		const markers: mapboxgl.Marker[] = [];
+	// Handle markers updates
+	useEffect(() => {
+		if (!mapRef.current) return;
 
-		if (selectedCategory && mapRef.current) {
-			placeData.forEach((place) => {
+		// Remove existing markers
+		markersRef.current.forEach((marker) => marker.remove());
+		markersRef.current = [];
+
+		// Add new markers
+		placeData.forEach((place) => {
+			// Verify that coords exist and are in the correct format
+			if (
+				place.coords &&
+				Array.isArray(place.coords) &&
+				place.coords.length === 2
+			) {
 				const element = document.createElement("div");
 				element.className = place.isOpen
 					? getColorByStatus("open")
 					: getColorByStatus("closed");
 
+				const [lng, lat] = place.coords;
+
 				const marker = new mapboxgl.Marker(element)
-					.setLngLat(place.coords)
+					.setLngLat([lng, lat])
 					.addTo(mapRef.current!);
 
-				markers.push(marker);
-			});
-		}
-
-		// Add error handling
-		mapRef.current.on("error", (e) => {
-			console.error("Mapbox error:", e);
+				markersRef.current.push(marker);
+			}
 		});
 
 		return () => {
-			markers.forEach((marker) => marker.remove());
-			mapRef.current?.remove();
+			markersRef.current.forEach((marker) => marker.remove());
+			markersRef.current = [];
 		};
-	}, []);
+	}, [selectedCategory, placeData]);
 
 	return (
 		<div className="flex-1 relative h-full min-h-[300px]">
@@ -113,4 +137,6 @@ function Map(selectedCategory: string | null, placeData: Place[]) {
 			/>
 		</div>
 	);
-}
+};
+
+export default Map;
