@@ -4,6 +4,10 @@ import "./globals.css";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 
+const clashGrotesk = localFont({
+	src: "../../public/fonts/ClashGrotesk-Variable.ttf",
+});
+
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
 	variable: "--font-geist-sans",
@@ -27,9 +31,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-			>
+			<body className={`${clashGrotesk.className} antialiased`}>
 				<Theme
 					accentColor="crimson"
 					grayColor="sand"

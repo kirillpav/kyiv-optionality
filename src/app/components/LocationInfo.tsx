@@ -7,11 +7,6 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 
-import parks from "../../../places/park.json" assert { type: "json" };
-import cafes from "../../../places/cafe.json" assert { type: "json" };
-import bars from "../../../places/bar.json" assert { type: "json" };
-import restaurants from "../../../places/restaraunt.json" assert { type: "json" };
-
 interface LocationInfoProps {
 	onCategorySelect: (category: string | null) => void;
 	cafeData: Place[];
@@ -105,8 +100,10 @@ function LocationInfo({
 
 	return (
 		<div>
-			<h1 className="text-2xl font-bold">Welcome to Kyiv</h1>
-			<p>Current time: {currentTime?.toLocaleString()}</p>
+			<div className="mb-10">
+				<h1 className="text-2xl font-bold">Welcome to Kyiv</h1>
+				<p>Current time: {currentTime?.toLocaleTimeString()}</p>
+			</div>
 			<Accordion
 				type="single"
 				collapsible
@@ -116,21 +113,23 @@ function LocationInfo({
 				}}
 			>
 				<AccordionItem value="cafes">
-					<AccordionTrigger className="text-lg uppercase">
-						Cafes
+					<div className="flex items-center justify-between">
+						<AccordionTrigger className="text-lg uppercase">
+							Cafes
+						</AccordionTrigger>
 						<p className="text-sm text-gray-500">
 							{openCafes}/{cafeData.length}
 						</p>
-					</AccordionTrigger>
+					</div>
 					{cafeData.map((cafe: Place, id: number) => (
 						<div key={id} className="flex items-center">
 							<AccordionContent key={id} className="px-6">
-								<div className="flex items-center justify-between w-full py-2 gap-5">
-									<p>{cafe.name}</p>
+								<div className="flex items-center gap-2">
+									<p className="uppercase">{cafe.name}</p>
 									{cafe.isOpen ? (
-										<p className="text-green-500">Open</p>
+										<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 									) : (
-										<p className="text-red-500">Closed</p>
+										<div className="h-2 w-2 rounded-full bg-red-400 shadow-[0px_0px_4px_2px_rgba(239,68,68,0.9)]"></div>
 									)}
 								</div>
 							</AccordionContent>
@@ -138,60 +137,66 @@ function LocationInfo({
 					))}
 				</AccordionItem>
 				<AccordionItem value="restaurants">
-					<AccordionTrigger className="text-lg uppercase">
-						Restaurants
+					<div className="flex items-center justify-between">
+						<AccordionTrigger className="text-lg uppercase">
+							Restaurants
+						</AccordionTrigger>
 						<p className="text-sm text-gray-500">
 							{openRestaurants}/{restaurantData.length}
 						</p>
-					</AccordionTrigger>
+					</div>
 					{restaurantData.map((restaurant: Place, id: number) => (
 						<AccordionContent key={id}>
 							<div className="flex items-center  gap-2">
-								<p>{restaurant.name}</p>
+								<p className="uppercase">{restaurant.name}</p>
 								{restaurant.isOpen ? (
-									<p className="text-green-500">Open</p>
+									<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 								) : (
-									<p className="text-red-500">Closed</p>
+									<div className="h-2 w-2 rounded-full bg-red-400 shadow-[0px_0px_4px_2px_rgba(239,68,68,0.9)]"></div>
 								)}
 							</div>
 						</AccordionContent>
 					))}
 				</AccordionItem>
 				<AccordionItem value="parks">
-					<AccordionTrigger className="text-lg uppercase">
-						Parks
+					<div className="flex items-center justify-between">
+						<AccordionTrigger className="text-lg uppercase">
+							Parks
+						</AccordionTrigger>
 						<p className="text-sm text-gray-500">
 							{openParks}/{parkData.length}
 						</p>
-					</AccordionTrigger>
+					</div>
 					{parkData.map((park: Place, id: number) => (
 						<AccordionContent key={id}>
-							<div className="flex items-center ">
-								<p>{park.name}</p>
+							<div className="flex items-center gap-2">
+								<p className="uppercase">{park.name}</p>
 								{park.isOpen ? (
-									<p className="text-green-500">Open</p>
+									<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 								) : (
-									<p className="text-red-500">Closed</p>
+									<div className="h-2 w-2 rounded-full bg-red-400 shadow-[0px_0px_4px_2px_rgba(239,68,68,0.9)]"></div>
 								)}
 							</div>
 						</AccordionContent>
 					))}
 				</AccordionItem>
 				<AccordionItem value="bars">
-					<AccordionTrigger className="text-lg uppercase">
-						Bars
+					<div className="flex items-center justify-between">
+						<AccordionTrigger className="text-lg uppercase">
+							Bars
+						</AccordionTrigger>
 						<p className="text-sm text-gray-500">
 							{openBars}/{barData.length}
 						</p>
-					</AccordionTrigger>
+					</div>
 					{barData.map((bar: Place, id: number) => (
 						<AccordionContent key={id}>
-							<div className="flex items-center">
-								<p>{bar.name}</p>
+							<div className="flex items-center gap-2">
+								<p className="uppercase">{bar.name}</p>
 								{bar.isOpen ? (
-									<p className="text-green-500">Open</p>
+									<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 								) : (
-									<p className="text-red-500">Closed</p>
+									<div className="h-2 w-2 rounded-full bg-red-400 shadow-[0px_0px_4px_2px_rgba(239,68,68,0.9)]"></div>
 								)}
 							</div>
 						</AccordionContent>
