@@ -101,7 +101,7 @@ function LocationInfo({
 	return (
 		<div className="h-full flex flex-col">
 			<div className="mb-10 flex-shrink-0">
-				<h1 className="text-2xl font-bold uppercase">Welcome to Kyiv</h1>
+				<h1 className="text-4xl font-bold uppercase">Welcome to Kyiv</h1>
 				<p>Current time: {currentTime?.toLocaleTimeString()}</p>
 			</div>
 			<Accordion
@@ -117,7 +117,7 @@ function LocationInfo({
 						<AccordionTrigger className="text-lg uppercase">
 							Cafes
 						</AccordionTrigger>
-						<p className="text-sm text-gray-500">
+						<p className="text-md text-gray-500">
 							{openCafes}/{cafeData.length}
 						</p>
 					</div>
@@ -125,11 +125,11 @@ function LocationInfo({
 						<div key={id} className="flex items-center">
 							<AccordionContent key={id} className="px-6">
 								<div className="flex items-center gap-2">
-									<p className="uppercase">{cafe.name}</p>
+									<p className="uppercase text-md">{cafe.name}</p>
 									{cafe.isOpen ? (
 										<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 									) : (
-										<div className="h-2 w-2 rounded-full bg-red-400 shadow-[0px_0px_4px_2px_rgba(239,68,68,0.9)]"></div>
+										<div className="h-2 w-2 rounded-full bg-red-400 shadow-[0px_0px_4px_2px_rgba(239,68,68,0.7)]"></div>
 									)}
 								</div>
 							</AccordionContent>
@@ -141,14 +141,14 @@ function LocationInfo({
 						<AccordionTrigger className="text-lg uppercase">
 							Restaurants
 						</AccordionTrigger>
-						<p className="text-sm text-gray-500">
+						<p className="text-md text-gray-500">
 							{openRestaurants}/{restaurantData.length}
 						</p>
 					</div>
 					{restaurantData.map((restaurant: Place, id: number) => (
 						<AccordionContent key={id}>
 							<div className="flex items-center  gap-2">
-								<p className="uppercase">{restaurant.name}</p>
+								<p className="uppercase text-md">{restaurant.name}</p>
 								{restaurant.isOpen ? (
 									<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 								) : (
@@ -163,14 +163,14 @@ function LocationInfo({
 						<AccordionTrigger className="text-lg uppercase">
 							Parks
 						</AccordionTrigger>
-						<p className="text-sm text-gray-500">
+						<p className="text-md text-gray-500">
 							{openParks}/{parkData.length}
 						</p>
 					</div>
 					{parkData.map((park: Place, id: number) => (
 						<AccordionContent key={id}>
 							<div className="flex items-center gap-2">
-								<p className="uppercase">{park.name}</p>
+								<p className="uppercase text-md	">{park.name}</p>
 								{park.isOpen ? (
 									<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 								) : (
@@ -185,14 +185,14 @@ function LocationInfo({
 						<AccordionTrigger className="text-lg uppercase">
 							Bars
 						</AccordionTrigger>
-						<p className="text-sm text-gray-500">
+						<p className="text-md text-gray-500">
 							{openBars}/{barData.length}
 						</p>
 					</div>
 					{barData.map((bar: Place, id: number) => (
 						<AccordionContent key={id}>
 							<div className="flex items-center gap-2">
-								<p className="uppercase">{bar.name}</p>
+								<p className="uppercase text-md">{bar.name}</p>
 								{bar.isOpen ? (
 									<div className="h-2 w-2 rounded-full bg-green-400 shadow-[0px_0px_4px_2px_rgba(34,197,94,0.7)"></div>
 								) : (

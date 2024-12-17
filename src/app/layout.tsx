@@ -31,16 +31,14 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${clashGrotesk.className} antialiased`}>
-				<Theme
-					accentColor="crimson"
-					grayColor="sand"
-					radius="large"
-					scaling="95%"
-					appearance="dark"
-				>
-					{children}
-				</Theme>
+			<body
+				className={`${clashGrotesk.className} antialiased`}
+				style={{
+					backgroundColor: "#100C08",
+					color: "#fff",
+				}}
+			>
+				{children}
 			</body>
 		</html>
 	);

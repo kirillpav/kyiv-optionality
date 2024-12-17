@@ -12,12 +12,6 @@ import restaurants from "../../places/restaraunt.json";
 import LocationInfo from "./components/LocationInfo";
 import Map from "./components/Map";
 import { useEffect, useRef, useState } from "react";
-import {
-	Accordion,
-	AccordionContent,
-	AccordionItem,
-	AccordionTrigger,
-} from "@/components/ui/accordion";
 
 interface OpeningHoursTime {
 	day: number;
@@ -132,7 +126,7 @@ function Home() {
 	}, [selectedCategory]);
 
 	return (
-		<main className="flex flex-row h-screen p-4 gap-4">
+		<main className="flex flex-row h-screen py-4 px-8 gap-4">
 			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col overflow-hidden">
 				<LocationInfo
 					onCategorySelect={setSelectedCategory}
