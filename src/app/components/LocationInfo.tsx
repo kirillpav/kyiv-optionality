@@ -99,15 +99,15 @@ function LocationInfo({
 	const openBars = barData.filter((bar) => bar.isOpen).length;
 
 	return (
-		<div>
-			<div className="mb-10">
-				<h1 className="text-2xl font-bold">Welcome to Kyiv</h1>
+		<div className="h-full flex flex-col">
+			<div className="mb-10 flex-shrink-0">
+				<h1 className="text-2xl font-bold uppercase">Welcome to Kyiv</h1>
 				<p>Current time: {currentTime?.toLocaleTimeString()}</p>
 			</div>
 			<Accordion
 				type="single"
 				collapsible
-				className="w-full"
+				className="w-full overflow-y-auto"
 				onValueChange={(value) => {
 					onCategorySelect(value);
 				}}

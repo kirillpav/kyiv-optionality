@@ -133,7 +133,7 @@ function Home() {
 
 	return (
 		<main className="flex flex-row h-screen p-4 gap-4">
-			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col w-1/3 px-4">
+			<div className="basis-2/5 sm:h-full order-last sm:order-first py-4 sm:px-0 sm:py-2  sm:flex sm:flex-col overflow-hidden">
 				<LocationInfo
 					onCategorySelect={setSelectedCategory}
 					cafeData={cafeData}
